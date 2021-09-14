@@ -24,10 +24,10 @@
   "Dictionary Types": [
     "SPOOKY",
     "COLD",
-    "WET",
-    "SWAMP",
     "SPARSE",
-    "DEAD"
+    "DEAD",
+    "SWAMP",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

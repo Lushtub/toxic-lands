@@ -49,6 +49,8 @@ item.contenttweaker.bloody_catalyst.name=Bloody Catalyst
 item.contenttweaker.bloody_reagent.name=Bloody Reagent
 item.contenttweaker.flint_shard.name=Flint Shard
 item.contenttweaker.carbon.name=Carbon
+item.contenttweaker.plate_iridium.name=Iridium Plate
+item.contenttweaker.plate_tin.name=Tin Plate
 
 //Blocks
 tile.contenttweaker.brass_casing.name=Brass Casing

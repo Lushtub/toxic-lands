@@ -22,11 +22,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
-    "HOT",
-    "SAVANNA",
     "DRY",
+    "SAVANNA",
+    "HOT",
     "SANDY",
+    "LUSH",
     "SPARSE"
   ],
   "BiomeManager Entries": {},
