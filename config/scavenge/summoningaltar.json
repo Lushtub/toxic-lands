@@ -1,0 +1,52 @@
+{
+    "block_pools": [
+        {
+            "name": "summoningaltar",
+            "type": {
+                "type": "block",
+                "name": "minecraft:stone_slab"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "thaumcraft:nugget",
+                    "meta": 10
+                },
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:summoner_book",
+                    "offhand": true
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "zensummoning:altar",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_item",
+                    "name": "thaumcraft:nugget",
+                    "meta": 10,
+                    "amount": 1,
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:entity.generic.explode",
+                    "category": "entity",
+                    "volume": 2,
+                    "disableJEI": true
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                }
+            ]
+        }
+    ]
+}

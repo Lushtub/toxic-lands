@@ -1,0 +1,11 @@
+{
+	title: "The Electrical Age",
+	icon: "progressiontweaks:machine_frame",
+	x: 6.0d,
+	y: 1.5d,
+	shape: "gear",
+	dependencies: [
+		"e8d4db75"
+	],
+	size: 2.0d
+}

@@ -1,0 +1,24 @@
+{
+	icon: "efab:rfstorage",
+	x: 13.5d,
+	y: -6.0d,
+	shape: "hexagon",
+	dependencies: [
+		"6c4dc403"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b91691cb",
+		type: "item",
+		items: [{
+			item: "efab:rfstorage"
+		}]
+	},
+	{
+		uid: "7a12d72d",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector"
+		}]
+	}]
+}

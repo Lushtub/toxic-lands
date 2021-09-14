@@ -1,0 +1,15 @@
+{
+	x: 10.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	dependencies: [
+		"0fa50a03"
+	],
+	tasks: [{
+		uid: "0e537756",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:water_source"
+		}]
+	}]
+}

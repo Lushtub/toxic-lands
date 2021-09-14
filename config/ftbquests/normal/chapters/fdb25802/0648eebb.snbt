@@ -1,0 +1,23 @@
+{
+	title: "Summon Cow",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "minecraft:cow"
+			}
+		}
+	},
+	x: 10.0d,
+	y: 1.0d,
+	dependencies: [
+		"b7d7514b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "57251f61",
+		type: "kill",
+		entity: "minecraft:cow",
+		value: 1L
+	}]
+}

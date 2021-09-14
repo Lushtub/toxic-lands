@@ -1,0 +1,15 @@
+{
+	x: 11.5d,
+	y: -1.5d,
+	dependencies: [
+		"a5891421",
+		"1b778a9a"
+	],
+	tasks: [{
+		uid: "a5bbfa69",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 1"
+		}]
+	}]
+}

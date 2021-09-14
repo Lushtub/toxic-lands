@@ -1,0 +1,15 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"b918b472"
+	],
+	tasks: [{
+		uid: "d7c047db",
+		type: "item",
+		items: [{
+			item: "engineersdecor:small_electrical_furnace"
+		}]
+	}]
+}

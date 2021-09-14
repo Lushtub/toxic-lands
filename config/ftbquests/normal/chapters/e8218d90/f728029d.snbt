@@ -1,0 +1,27 @@
+{
+	x: -0.5d,
+	y: -4.5d,
+	dependencies: [
+		"6dccf4c7"
+	],
+	tasks: [{
+		uid: "41f6ca32",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"tinkersforging:forge_item": {
+					temp: 0.0f,
+					work: 75,
+					tick: -1L,
+					steps: {
+						last: -1,
+						third: -1,
+						second: -1
+					}
+				}
+			},
+			id: "mekanism:ingot",
+			Damage: 2s
+		}]
+	}]
+}

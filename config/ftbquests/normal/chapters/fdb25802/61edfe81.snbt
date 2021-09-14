@@ -1,0 +1,16 @@
+{
+	x: 13.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"ef95f537"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2b69e45b",
+		type: "item",
+		items: [{
+			item: "randomthings:fertilizeddirt"
+		}]
+	}]
+}

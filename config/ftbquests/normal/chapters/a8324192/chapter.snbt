@@ -1,0 +1,7 @@
+{
+	title: "Ch. 5 The Evil Forces",
+	icon: "bewitchment:bottle_of_blood",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

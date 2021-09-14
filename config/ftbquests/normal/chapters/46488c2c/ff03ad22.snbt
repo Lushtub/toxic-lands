@@ -1,0 +1,17 @@
+{
+	disable_toast: true,
+	x: -2.5d,
+	y: 2.0d,
+	shape: "hexagon",
+	dependencies: [
+		"0bcde098"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3651e7be",
+		type: "item",
+		items: [{
+			item: "quark:crystal 1 8"
+		}]
+	}]
+}

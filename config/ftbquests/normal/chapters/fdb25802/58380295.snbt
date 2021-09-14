@@ -1,0 +1,16 @@
+{
+	title: "The Mud Crucible",
+	icon: "requious:mud_crucible",
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"533c9d65"
+	],
+	tasks: [{
+		uid: "76bed765",
+		type: "item",
+		items: [{
+			item: "requious:mud_crucible"
+		}]
+	}]
+}

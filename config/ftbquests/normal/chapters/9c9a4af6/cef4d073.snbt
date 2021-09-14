@@ -1,0 +1,28 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	dependencies: [
+		"4f25bda4"
+	],
+	tasks: [{
+		uid: "68f845d9",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	},
+	{
+		uid: "09946159",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock 1 2"
+		}]
+	},
+	{
+		uid: "036dd2ab",
+		type: "item",
+		items: [{
+			item: "mysticalworld:copper_ore"
+		}]
+	}]
+}

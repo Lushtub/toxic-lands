@@ -1,0 +1,20 @@
+{
+	title: "Clay",
+	x: -8.0d,
+	y: -2.5d,
+	description: "Perfectly Balanced",
+	text: [
+		"Clay is a basic material used for a bunch of things in alchemy. You'll want to make an alchemic condenser with."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"be47f66c"
+	],
+	tasks: [{
+		uid: "213afdcb",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	}]
+}

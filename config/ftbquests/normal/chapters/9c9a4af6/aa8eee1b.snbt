@@ -1,0 +1,73 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	dependencies: [
+		"cd5f9283",
+		"df9efa39"
+	],
+	tasks: [{
+		uid: "8c18e0ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"tinkersforging:forge_item": {
+					temp: 0.0f,
+					work: 75,
+					tick: -1L,
+					steps: {
+						last: -1,
+						third: -1,
+						second: -1
+					}
+				}
+			},
+			id: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "3419d864",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	},
+	{
+		uid: "560198e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"tinkersforging:forge_item": {
+					temp: 0.0f,
+					work: 75,
+					tick: -1L,
+					steps: {
+						last: -1,
+						third: -1,
+						second: -1
+					}
+				}
+			},
+			id: "immersiveengineering:metal"
+		}]
+	},
+	{
+		uid: "2af6ccab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"tinkersforging:forge_item": {
+					temp: 0.0f,
+					work: 75,
+					tick: -1L,
+					steps: {
+						last: -1,
+						third: -1,
+						second: -1
+					}
+				}
+			},
+			id: "mekanism:ingot",
+			Damage: 6s
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Stone Dust",
+	x: 2.5d,
+	y: -1.0d,
+	description: "It's just crushed rocks",
+	text: [
+		"By crushing rock, you can create stone dust. It's useful when you need just some basic mundane dust."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"be47f66c"
+	],
+	tasks: [{
+		uid: "f4eaea5f",
+		type: "item",
+		items: [{
+			item: "hwell:dust"
+		}]
+	}]
+}

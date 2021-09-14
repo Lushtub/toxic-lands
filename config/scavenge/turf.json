@@ -1,0 +1,89 @@
+{
+    "block_pools": [
+        {
+            "name": "SiftableTurf",
+            "type": {
+                "type": "block",
+                "name": "quark:turf"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "per_block_limit",
+                    "usage": 1,
+                    "max": 3
+                },
+                {
+                    "type": "require_tool",
+                    "tool": "shovel",
+                    "level": 0
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 2
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:item.shovel.flatten",
+                    "category": "block",
+                    "volume": 0.5,
+                    "disableJEI": true
+                }
+            ],
+            "drops": [
+                {
+                    "name": "minecraft:wheat_seeds",
+                    "amount": 1,
+                    "weight": 8
+                },
+                {
+                    "name": "inspirations:carrot_seeds",
+                    "amount": 1,
+                    "weight": 7
+                },
+                {
+                    "name": "inspirations:potato_seeds",
+                    "amount": 1,
+                    "weight": 7
+                },
+                {
+                    "name": "immersiveengineering:seed",
+                    "amount": 1,
+                    "weight": 6
+                },
+                {
+                    "name": "contenttweaker:toxic_grass_seeds",
+                    "amount": 2,
+                    "weight": 8
+                },
+                {
+                    "name": "rustichromia:cotton_seed",
+                    "amount": 1,
+                    "weight": 6
+                },
+                {
+                    "name": "randomthings:grassseeds",
+                    "amount": 1,
+                    "weight": 4
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_tool",
+                    "message": "You must hold a Shovel to do that!"
+                },
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                }
+            ]
+        }
+    ]
+}

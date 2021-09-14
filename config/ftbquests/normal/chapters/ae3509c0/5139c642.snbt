@@ -1,0 +1,19 @@
+{
+	title: "Experiments",
+	x: 11.0d,
+	y: -1.5d,
+	text: [
+		"The stone dust seems to have some absorption properties, I should try to mix it with the poison surrounding me in my cauldron."
+	],
+	dependencies: [
+		"bcc469aa"
+	],
+	hide: true,
+	tasks: [{
+		uid: "92e18a6a",
+		type: "item",
+		items: [{
+			item: "hwell:myst_dust"
+		}]
+	}]
+}

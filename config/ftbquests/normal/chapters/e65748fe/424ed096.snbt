@@ -1,0 +1,11 @@
+{
+	x: -7.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "5e006ab4",
+		type: "item",
+		items: [{
+			item: "progressiontweaks:machine_frame"
+		}]
+	}]
+}

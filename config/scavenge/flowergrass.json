@@ -1,0 +1,39 @@
+{
+    "block_pools": [
+        {
+            "name": "flowergrass",
+            "type": {
+                "type": "block",
+                "name": "minecraft:grass"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "hwell:myst_fertilizer"
+                },
+                {
+                    "type": "consume_item",
+                    "name": "hwell:myst_fertilizer",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_block",
+                    "name": "biomesoplenty:grass",
+                    "meta": 7
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.grass.break",
+                    "category": "block",
+                    "volume": 2,
+                    "disableJEI": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+	x: 5.5d,
+	y: 7.0d,
+	shape: "rsquare",
+	dependencies: [
+		"1614ac57"
+	],
+	tasks: [{
+		uid: "a922e069",
+		type: "item",
+		items: [{
+			item: "rustichromia:gin"
+		}]
+	}]
+}

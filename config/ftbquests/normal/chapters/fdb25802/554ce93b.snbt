@@ -1,0 +1,28 @@
+{
+	title: "Basic Alchemy",
+	icon: "rustic:condenser",
+	x: 5.5d,
+	y: 1.0d,
+	text: [
+		"You should begin to make alchemy. An antidote to the poison should be the first thing you do."
+	],
+	dependencies: [
+		"58380295"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a5419817",
+		type: "item",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	},
+	{
+		uid: "a42aaa8b",
+		type: "item",
+		items: [{
+			item: "rustic:retort"
+		}],
+		count: 2L
+	}]
+}

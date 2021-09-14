@@ -1,0 +1,15 @@
+{
+	x: 10.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"78b58b2e"
+	],
+	tasks: [{
+		uid: "cb97afb3",
+		type: "item",
+		items: [{
+			item: "primal_tech:charcoal_hopper"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	dependencies: [
+		"1fbd82f7"
+	],
+	tasks: [{
+		uid: "25aa04ab",
+		type: "item",
+		items: [{
+			item: "hwell:core_stone"
+		}]
+	}]
+}

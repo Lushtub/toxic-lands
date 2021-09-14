@@ -1,0 +1,18 @@
+{
+	icon: "immersiveengineering:steel_armor_chest",
+	x: 8.5d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"b918b472"
+	],
+	tasks: [{
+		uid: "dcd4eb8b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sword_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

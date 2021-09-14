@@ -1,0 +1,16 @@
+{
+	x: 7.0d,
+	y: -4.5d,
+	dependencies: [
+		"1b85309d"
+	],
+	tasks: [{
+		uid: "83795e79",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_survivalist_dense_solid"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

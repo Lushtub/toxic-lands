@@ -1,0 +1,38 @@
+{
+    "block_pools": [
+        {
+            "name": "arcanestone",
+            "type": {
+                "type": "block",
+                "name": "rustic:slate"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "forbidden_arcanus:arcane_crystal_dust"
+                },
+                {
+                    "type": "consume_item",
+                    "name": "forbidden_arcanus:arcane_crystal_dust",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_block",
+                    "name": "thaumcraft:stone_arcane"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.sand.break",
+                    "category": "block",
+                    "volume": 2,
+                    "disableJEI": true
+                }
+            ]
+        }
+    ]
+}

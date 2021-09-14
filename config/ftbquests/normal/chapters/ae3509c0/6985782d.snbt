@@ -1,0 +1,18 @@
+{
+	title: "Weird Feelings",
+	icon: "extrabotany:cosmetic 1 7",
+	x: 11.0d,
+	y: 0.0d,
+	text: [
+		"The rock, carbon, mysterious dust and plant fiber seems attracted to each others. Maybe I should combine them?"
+	],
+	dependencies: [
+		"23a86338",
+		"5139c642"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b43cb0a",
+		type: "checkmark"
+	}]
+}

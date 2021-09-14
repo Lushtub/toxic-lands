@@ -1,0 +1,22 @@
+{
+	title: "Carbon",
+	icon: "contenttweaker:carbon",
+	x: 8.0d,
+	y: 0.0d,
+	text: [
+		"If I saw low grade charcoal, I can get two pieces of charcoal. By smashing them with my hammer, I can get carbon. It might be useful for later.",
+		""
+	],
+	dependencies: [
+		"d1eb9092"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca1a429c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:carbon"
+		}],
+		count: 2L
+	}]
+}

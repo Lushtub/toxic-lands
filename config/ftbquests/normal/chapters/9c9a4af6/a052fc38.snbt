@@ -1,0 +1,19 @@
+{
+	title: "Carbon (C)",
+	x: 4.0d,
+	y: -2.5d,
+	text: [
+		"Carbon is a useful components. Later, you'll be able to create diamonds with it."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"be47f66c"
+	],
+	tasks: [{
+		uid: "a637d855",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:chemical_dusts 1 24"
+		}]
+	}]
+}

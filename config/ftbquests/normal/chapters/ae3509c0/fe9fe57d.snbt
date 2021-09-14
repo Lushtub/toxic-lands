@@ -1,0 +1,19 @@
+{
+	title: "Flint Knapping",
+	x: -2.5d,
+	y: 0.0d,
+	text: [
+		"By simply smashing a rock over a piece of flint, I can make the flint sharpier."
+	],
+	dependencies: [
+		"4a68c866"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d936297c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:flint_shard"
+		}]
+	}]
+}

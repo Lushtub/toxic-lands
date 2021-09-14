@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: -1.5d,
+	dependencies: [
+		"b918b472"
+	],
+	tasks: [{
+		uid: "dbb9ed0f",
+		type: "item",
+		items: [{
+			item: "hwell:heavy_ingot"
+		}]
+	}]
+}

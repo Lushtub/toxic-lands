@@ -1,0 +1,122 @@
+[
+  {
+    "resourceName": "small_boiler",
+    "model": "requious:small_boiler",
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "extraVariants": [],
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+    {
+    "resourceName": "mud_crucible",
+    "model": "requious:mud_crucible",
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "extraVariants": [],
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+    {
+    "resourceName": "steam_alloy_smelter",
+    "model": "requious:steam_alloy_smelter",
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "extraVariants": [],
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+    {
+    "resourceName": "steam_grinder",
+    "model": "requious:steam_grinder",
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "extraVariants": [],
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+    {
+    "resourceName": "steam_press",
+    "model": "requious:steam_press",
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "extraVariants": [],
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+    {
+    "resourceName": "steam_wiremill",
+    "model": "requious:steam_wiremill",
+    "placeType": "Any",
+    "layerType": "Cutout",
+    "extraVariants": [],
+    "hasGUI": true,
+    "colorA": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "colorB": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    }
+  },
+]

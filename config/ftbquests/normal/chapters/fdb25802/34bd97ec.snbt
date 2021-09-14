@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: 2.5d,
+	dependencies: [
+		"78b58b2e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a97134c1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stone_brick"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,40 @@
+{
+    "block_pools": [
+        {
+            "name": "harmplate",
+            "type": {
+                "type": "block",
+                "name": "ic2:sheet",
+                "meta": 1
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:harm_essence"
+                },
+                {
+                    "type": "consume_item",
+                    "name": "contenttweaker:harm_essence",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_block",
+                    "name": "darkutils:trap_tile",
+                    "meta": 2
+                },
+                {
+                    "type": "play_sound",
+                    "name": "thaumcraft:dust",
+                    "category": "block",
+                    "volume": 2,
+                    "disableJEI": true
+                }
+            ]
+        }
+    ]
+}

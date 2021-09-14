@@ -1,0 +1,25 @@
+{
+	icon: "composter:compost_bin",
+	x: 5.5d,
+	y: 4.0d,
+	dependencies: [
+		"98b47e98"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bde96222",
+		type: "item",
+		items: [{
+			item: "composter:compost_bin"
+		}]
+	},
+	{
+		uid: "b6338d84",
+		type: "item",
+		items: [{
+			item: "composter:compost"
+		}],
+		count: 4L,
+		consume_items: false
+	}]
+}

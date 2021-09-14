@@ -1,0 +1,14 @@
+{
+	x: 13.5d,
+	y: -3.0d,
+	dependencies: [
+		"77d14c8c"
+	],
+	tasks: [{
+		uid: "827cfb64",
+		type: "item",
+		items: [{
+			item: "terraqueous:item_main 1 251"
+		}]
+	}]
+}

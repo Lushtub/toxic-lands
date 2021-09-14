@@ -1,0 +1,29 @@
+{
+	title: "A Place To Work",
+	icon: "primal_tech:work_stump",
+	x: 3.5d,
+	y: 0.0d,
+	text: [
+		"I need a place to work and craft tools and other stuff. The next step would be to make a work stump and a crafting rock."
+	],
+	dependencies: [
+		"09a916e6"
+	],
+	hide: true,
+	tasks: [{
+		uid: "35915470",
+		type: "item",
+		items: [{
+			item: "primal_tech:work_stump"
+		}]
+	},
+	{
+		uid: "f1e9cd3d",
+		type: "item",
+		items: [{
+			item: "primal_tech:rock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	dependencies: [
+		"9ff49e89"
+	],
+	tasks: [{
+		uid: "e194b872",
+		type: "item",
+		items: [{
+			id: "rustic:elixir",
+			tag: {
+				ElixirEffects: [{
+					Effect: "potioncore:antidote",
+					Duration: 6000,
+					Amplifier: 0
+				}]
+			}
+		}]
+	}]
+}

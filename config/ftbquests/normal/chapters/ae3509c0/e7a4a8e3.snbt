@@ -1,0 +1,21 @@
+{
+	title: "Clean Dirt",
+	x: 14.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	text: [
+		"I could try to clean the purple-ish poisonous dirt in water to get some normal dirt."
+	],
+	dependencies: [
+		"4fa0ccfe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "732e102b",
+		type: "item",
+		items: [{
+			item: "earthworks:item_dirt"
+		}],
+		count: 8L
+	}]
+}

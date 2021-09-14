@@ -1,0 +1,7 @@
+{
+	title: "Ch. 3 Magical Power",
+	icon: "thaumcraft:crystal_vitium",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

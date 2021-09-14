@@ -1,0 +1,75 @@
+
+{
+  "ID": 6,
+  "Name": "Poisonous Swampland",
+  "Resource Location": "minecraft:swampland",
+  "Class": "net.minecraft.world.biome.BiomeSwamp",
+  "Root Height": -0.2,
+  "Height Variation": 0.1,
+  "Top Block": "biomesoplenty:grass[snowy\u003dfalse,variant\u003dloamy]",
+  "Filler Block": "biomesoplenty:dirt[coarse\u003dfalse,variant\u003dloamy]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]",
+    "midnight:nightstone"
+  ],
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "14745518",
+  "Temperature": 0.8,
+  "Humidity": 0.9,
+  "Water Tint": 14745518,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "WET",
+    "SWAMP"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      200
+    ],
+    "WARM Weights": [
+      10,
+      200
+    ],
+    "COOL Weights": [
+      200
+    ],
+    "ICY Weights": [
+      200
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "thebetweenlands.common.entity.mobs.EntityFrog",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "ru.liahim.mist.entity.EntitySniff",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {},
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "COLD_SWAMP": [
+      5
+    ],
+    "HOT_SWAMP": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

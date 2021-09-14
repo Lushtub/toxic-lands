@@ -1,0 +1,25 @@
+{
+	title: "Stone Anvil",
+	icon: "primal_tech:stone_mallet",
+	x: 8.0d,
+	y: -1.5d,
+	dependencies: [
+		"d1eb9092"
+	],
+	tasks: [{
+		uid: "af0484d7",
+		type: "item",
+		items: [{
+			item: "primal_tech:stone_mallet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2a310d61",
+		type: "item",
+		items: [{
+			item: "primal_tech:stone_anvil"
+		}]
+	}]
+}

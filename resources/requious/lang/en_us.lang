@@ -1,0 +1,10 @@
+small_boiler=Small Boiler
+item.battery_iron.name=Iron Battery
+item.cell.name=Iron Cell
+tile.mud_crucible.name=Mud Crucible
+requious.jei.recipe.mud_crucible=Mud Crucible
+tile.small_boiler.name=Small Boiler
+tile.steam_alloy_smelter.name=Steam Alloy Smelter
+tile.steam_grinder.name=Steam Grinder
+tile.steam_press.name=Steam Press
+tile.steam_wiremill.name=Steam Wiremill

@@ -1,0 +1,18 @@
+{
+	title: "Extract Base",
+	x: -5.0d,
+	y: -4.0d,
+	text: [
+		"You'll need something with metal properties for the base of your metal extracts. Crude Steel should do the job."
+	],
+	dependencies: [
+		"be47f66c"
+	],
+	tasks: [{
+		uid: "f6756ff9",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	icon: "contenttweaker:summoner_book",
+	x: 8.5d,
+	y: 1.0d,
+	dependencies: [
+		"5e20fecf"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6739db00",
+		type: "item",
+		items: [{
+			item: "contenttweaker:summoner_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

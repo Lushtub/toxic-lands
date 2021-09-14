@@ -1,0 +1,47 @@
+{
+	title: "Plants Gathering",
+	icon: "midnight:nightshroom",
+	x: -4.0d,
+	y: -1.5d,
+	description: "Are these mushrooms are edible?",
+	text: [
+		""
+	],
+	dependencies: [
+		"7a194033"
+	],
+	hide: true,
+	tasks: [{
+		uid: "19c1cbf0",
+		type: "item",
+		items: [{
+			item: "midnight:nightshroom"
+		}],
+		count: 8L
+	},
+	{
+		uid: "3822b090",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vishroom"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7e62ec58",
+		type: "item",
+		items: [{
+			item: "midnight:nightshroom_shelf"
+		}],
+		count: 8L,
+		consume_items: false
+	},
+	{
+		uid: "e25063c7",
+		type: "item",
+		items: [{
+			item: "survivalist:plant_fibres"
+		}],
+		count: 16L
+	}]
+}

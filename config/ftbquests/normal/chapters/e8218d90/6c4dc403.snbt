@@ -1,0 +1,15 @@
+{
+	x: 11.5d,
+	y: -6.0d,
+	dependencies: [
+		"17e6b786",
+		"1311feb2"
+	],
+	tasks: [{
+		uid: "a12ab41f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:brass_vent"
+		}]
+	}]
+}

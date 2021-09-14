@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 2.5d,
+	dependencies: [
+		"980912f9"
+	],
+	tasks: [{
+		uid: "4d5b968f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mundane_catalyst"
+		}]
+	}]
+}

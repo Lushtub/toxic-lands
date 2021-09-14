@@ -1,0 +1,20 @@
+{
+	title: "A Strange Relic",
+	x: 12.5d,
+	y: 0.0d,
+	text: [
+		"Combining the materials has created a weird object, but what is it?"
+	],
+	dependencies: [
+		"6985782d"
+	],
+	hide: true,
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "32e09d78",
+		type: "item",
+		items: [{
+			item: "quark:rune 1 11"
+		}]
+	}]
+}

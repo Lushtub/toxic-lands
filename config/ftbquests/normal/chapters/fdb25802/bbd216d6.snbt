@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"98b47e98"
+	],
+	tasks: [{
+		uid: "fef41746",
+		type: "item",
+		items: [{
+			item: "rustichromia:axle_wood"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 5.0d,
+	shape: "rsquare",
+	dependencies: [
+		"1aeef708"
+	],
+	hide: true,
+	tasks: [{
+		uid: "157bdbee",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:ectoplasm"
+		}]
+	}]
+}

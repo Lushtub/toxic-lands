@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "grass",
+    "textures": {
+      "particle": "midnight:blocks/midnight_dirt",
+      "bottom": "midnight:blocks/midnight_dirt",
+      "top": "contenttweaker:blocks/midnight_grass_top",
+      "side": "midnight:blocks/midnight_grass_side",
+      "overlay": "contenttweaker:blocks/midnight_grass_overlay"
+    }
+  },
+  "variants": {
+    "normal": [
+      {},
+      {"y": 90},
+      {"y": 180},
+      {"y": 270}
+    ],
+    "inventory": [{}]
+  }
+}

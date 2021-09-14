@@ -1,0 +1,18 @@
+{
+	title: "Salt (NaCl)",
+	x: 1.0d,
+	y: -4.0d,
+	text: [
+		"Salt is one of the most common component in chemistry. You will need a bunch."
+	],
+	dependencies: [
+		"be47f66c"
+	],
+	tasks: [{
+		uid: "7f3ae331",
+		type: "item",
+		items: [{
+			item: "mekanism:salt"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+    "block_pools": [
+        {
+            "name": "pumpkinritual",
+            "type": {
+                "type": "block",
+                "name": "botania:felpumpkin"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "hwell:mutation_paste"
+                },
+                {
+                    "type": "consume_item",
+                    "name": "hwell:mutation_paste",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_block",
+                    "name": "minecraft:skull"
+                },
+                {
+                    "type": "play_sound",
+                    "name": "abyssalcraft:chant.cthugha",
+                    "category": "block",
+                    "volume": 2,
+                    "disableJEI": true
+                }
+            ]
+        }
+    ]
+}

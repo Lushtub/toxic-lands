@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"ff03ad22"
+	],
+	tasks: [{
+		uid: "52850323",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crystal_vitium"
+		}]
+	}]
+}

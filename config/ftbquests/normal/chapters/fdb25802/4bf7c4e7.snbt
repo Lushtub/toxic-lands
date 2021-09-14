@@ -1,0 +1,15 @@
+{
+	x: 2.5d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"98b47e98"
+	],
+	tasks: [{
+		uid: "15800f6b",
+		type: "item",
+		items: [{
+			item: "hwell:myst_dust"
+		}]
+	}]
+}

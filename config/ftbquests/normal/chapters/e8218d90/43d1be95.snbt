@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: -4.5d,
+	dependencies: [
+		"ae395802"
+	],
+	tasks: [{
+		uid: "931b8411",
+		type: "item",
+		items: [{
+			item: "rustichromia:assembler3"
+		}]
+	}]
+}

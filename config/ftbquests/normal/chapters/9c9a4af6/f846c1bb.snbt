@@ -1,0 +1,17 @@
+{
+	title: "The Uses of Salis Mundus",
+	icon: "extrabotany:cosmetic 1 7",
+	x: 1.0d,
+	y: -1.0d,
+	text: [
+		"Salis Mundus can be applied on many blocks to transmute them into more magical version. For now, you are only able to make a crucible. You'll",
+		"need to use Salis Mundus on an Iron Cauldron."
+	],
+	dependencies: [
+		"c014e0aa"
+	],
+	tasks: [{
+		uid: "85db39f1",
+		type: "checkmark"
+	}]
+}

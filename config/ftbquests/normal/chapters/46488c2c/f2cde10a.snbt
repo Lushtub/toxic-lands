@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 3.5d,
+	dependencies: [
+		"618e29c9"
+	],
+	tasks: [{
+		uid: "d83c2b8a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:blueprint_blank"
+		}]
+	}]
+}

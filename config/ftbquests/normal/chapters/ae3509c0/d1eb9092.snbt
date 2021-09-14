@@ -1,0 +1,29 @@
+{
+	icon: "primal_tech:clay_kiln",
+	x: 6.5d,
+	y: 0.0d,
+	text: [
+		"I should make a clay kiln. I can use a firebow to light fire under it. Fire last forever when lit on top of a low grade charcoal block."
+	],
+	dependencies: [
+		"8e7641a3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a2563c7f",
+		type: "item",
+		items: [{
+			item: "primal_tech:clay_kiln"
+		}]
+	},
+	{
+		uid: "366cd952",
+		type: "item",
+		items: [{
+			item: "primal_tech:fire_sticks"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	title: "Basic Tools",
+	icon: "minecraft:stone_pickaxe",
+	x: 0.5d,
+	y: 0.0d,
+	text: [
+		"Basic Tools are needed.",
+		"",
+		"A pickaxe to work stone and harder materials,",
+		"",
+		"An axe to be able to cut down these trees,",
+		"",
+		"A saw for woodworking,",
+		"",
+		"And a shovel to dig."
+	],
+	dependencies: [
+		"66224bc7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "da074eb3",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bac2ca05",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3780ef0c",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "755ed26a",
+		type: "item",
+		items: [{
+			item: "immcraft:saw"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

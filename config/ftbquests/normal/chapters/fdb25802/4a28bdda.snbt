@@ -1,0 +1,15 @@
+{
+	x: 7.0d,
+	y: 7.0d,
+	shape: "rsquare",
+	dependencies: [
+		"8d56c0cd"
+	],
+	tasks: [{
+		uid: "76e8d4b0",
+		type: "item",
+		items: [{
+			item: "rustichromia:thatch_bed"
+		}]
+	}]
+}

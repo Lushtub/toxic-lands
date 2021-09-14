@@ -1,0 +1,49 @@
+{
+    "block_pools": [
+        {
+            "name": "ObsidianFragment",
+            "type": {
+                "type": "ore",
+                "name": "obsidian"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "primal:iron_gallagher"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "damage_item",
+                    "amount": 75
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.stone.hit",
+                    "category": "block",
+                    "volume": 0.5,
+                    "disableJEI": true
+                }
+            ],
+            "drops": [
+                {
+                    "name": "primal:obsidian_shard",
+                    "amount": 1,
+                    "weight": 1
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                }
+            ]
+        }
+    ]
+}

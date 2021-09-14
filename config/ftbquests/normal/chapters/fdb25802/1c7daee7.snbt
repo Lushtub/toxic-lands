@@ -1,0 +1,16 @@
+{
+	x: 14.5d,
+	y: 1.0d,
+	dependencies: [
+		"ef95f537",
+		"19b8aa13"
+	],
+	hide: true,
+	tasks: [{
+		uid: "65876c6c",
+		type: "item",
+		items: [{
+			item: "hwell:mutation_paste"
+		}]
+	}]
+}

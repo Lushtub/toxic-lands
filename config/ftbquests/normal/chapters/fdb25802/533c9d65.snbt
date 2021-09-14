@@ -1,0 +1,15 @@
+{
+	title: "Mud",
+	x: 2.5d,
+	y: 1.0d,
+	dependencies: [
+		"6b757e92"
+	],
+	tasks: [{
+		uid: "fd016bd6",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:mudball"
+		}]
+	}]
+}
