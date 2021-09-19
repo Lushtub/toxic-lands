@@ -51,6 +51,7 @@ item.contenttweaker.flint_shard.name=Flint Shard
 item.contenttweaker.carbon.name=Carbon
 item.contenttweaker.plate_iridium.name=Iridium Plate
 item.contenttweaker.plate_tin.name=Tin Plate
+item.contenttweaker.mold_anvil.name=Anvil Mold
 
 //Blocks
 tile.contenttweaker.brass_casing.name=Brass Casing

@@ -74,6 +74,10 @@ rimecrystal.register();
 var blueprint = VanillaFactory.createItem("blueprint_blank");
 blueprint.register();
 
+//Anvil Mold
+var moldanvil = VanillaFactory.createItem("mold_anvil");
+moldanvil.register();
+
 //Wrought Iron
 var wroughtiron = VanillaFactory.createItem("wrought_iron");
 wroughtiron.register();
