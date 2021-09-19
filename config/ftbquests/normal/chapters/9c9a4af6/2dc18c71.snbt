@@ -13,20 +13,7 @@
 		uid: "0f108539",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"tinkersforging:forge_item": {
-					temp: 0.0f,
-					work: 75,
-					tick: -1L,
-					steps: {
-						last: -1,
-						third: -1,
-						second: -1
-					}
-				}
-			},
-			id: "thaumcraft:ingot",
-			Damage: 2s
+			item: "thaumcraft:ingot 1 2"
 		}]
 	}]
 }

@@ -24,7 +24,7 @@ mods.foundry.CastingTable.addRodRecipe(<hwell:empty_rod>, <liquid:glass>*250);
 mods.foundry.Melting.addRecipe(<liquid:liquid_souls>*500, <hwell:myst_rod>, 1550);
 
 //Metal Caster
-recipes.addShaped(<foundry:machine:1>, [[null, <quark:rune:1>, null],[<ceramics:unfired_clay:5>, <ceramics:porcelain_barrel>, <ceramics:unfired_clay:5>], [<immersiveengineering:metal:39>, <minecraft:iron_block>, <immersiveengineering:metal:39>]]);
+recipes.addShaped(<foundry:machine:1>, [[<immersiveengineering:material:8>, <quark:rune:4>, <immersiveengineering:material:8>],[<ceramics:unfired_clay:5>, <ceramics:porcelain_barrel>, <ceramics:unfired_clay:5>], [<immersiveengineering:metal:39>, <minecraft:iron_block>, <immersiveengineering:metal:39>]]);
 
 //Induction Heater
 recipes.addShaped(<foundry:machine:5>, [[<immersiveengineering:material:20>, null, <immersiveengineering:material:20>],[<ceramics:unfired_clay:5>, <requious:battery_iron>, <ceramics:unfired_clay:5>], [<ceramics:clay_hard>, <mekanism:ingot:2>, <ceramics:clay_hard>]]);

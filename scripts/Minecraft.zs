@@ -78,11 +78,9 @@ recipes.addShaped(<minecraft:glass_bottle>, [[null, <quark:tallow>, null],[<mine
 //Iron Ore
 mods.bloodmagic.AlchemyArray.addRecipe(<minecraft:iron_ore>, <contenttweaker:iron_extract>, <contenttweaker:mundane_catalyst>);
 
-//Lilypad
-mods.bloodmagic.AlchemyArray.addRecipe(<minecraft:waterlily>, <minecraft:leaves>, <minecraft:slime_ball>);
 
-//Slimeball
-mods.thaumcraft.Crucible.registerRecipe("slimeAlchemy", "", <minecraft:slime_ball>, <contenttweaker:glue_ball>, [<aspect:bestia> * 5]);
+//Magma Cream
+recipes.addShapeless(<minecraft:magma_cream>, [<contenttweaker:glue_ball>,<minecraft:blaze_powder>]);
 
 //Ice
 mods.inspirations.Cauldron.addFluidRecipe(<minecraft:ice>, <quark:glass_shards>, <liquid:freezing_solution>, 3);

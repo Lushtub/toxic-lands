@@ -23,8 +23,8 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "SNOWY",
-    "COLD",
-    "WASTELAND"
+    "WASTELAND",
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
