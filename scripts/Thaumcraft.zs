@@ -4,7 +4,7 @@ import mods.roots.Mortar;
 #Recipes
 
 //Salis Mundus
-Mortar.addRecipe(<thaumcraft:salis_mundus>, [<hwell:myst_dust>, <hwell:myst_dust>, <mekanism:salt>, <mekanism:salt>, <hwell:dust>]);
+Mortar.addRecipe("salis_mundus", <thaumcraft:salis_mundus>, [<hwell:myst_dust>, <hwell:myst_dust>, <mekanism:salt>, <mekanism:salt>, <hwell:dust>]);
 mods.rustichromia.Quern.add("salis_mundus", [<hwell:myst_dust> * 2, <mekanism:salt> * 2, <hwell:dust>], [<thaumcraft:salis_mundus>], 0, 3, 200);
 
 //Quartz Ore

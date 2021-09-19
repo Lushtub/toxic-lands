@@ -1,0 +1,6 @@
+
+{
+  "Name": "entity_husk_slave",
+  "Registry ID": "roots:entity_husk_slave",
+  "Class": "epicsquid.roots.entity.mob.EntityHuskSlave"
+}

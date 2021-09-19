@@ -1,13 +1,13 @@
 
 {
-  "ID": 229,
-  "Name": "Ferric Regolith Wasteland",
-  "Resource Location": "advancedrocketry:hotdryrock",
-  "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenHotDryRock",
-  "Root Height": 1.0,
+  "ID": 236,
+  "Name": "MoonDark",
+  "Resource Location": "advancedrocketry:moondark",
+  "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenMoonDark",
+  "Root Height": 0.5,
   "Height Variation": 0.01,
-  "Top Block": "advancedrocketry:hotturf",
-  "Filler Block": "advancedrocketry:hotturf",
+  "Top Block": "advancedrocketry:moonturf_dark",
+  "Filler Block": "advancedrocketry:moonturf_dark",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
   "Actual Filler Blocks": [
@@ -16,15 +16,15 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": 0.9,
+  "Temperature": 0.3,
   "Humidity": 0.0,
   "Water Tint": 16777215,
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "WASTELAND",
-    "HOT"
+    "COLD",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -98,42 +98,6 @@
     },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityMimic",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityUndertaker",
-      "Weight": 30,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityBanshee",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.flying.EntityPtera",
-      "Weight": 20,
-      "Min Group Count": 2,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.flying.EntityGhostRay",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "lykrast.harvestersnight.common.EntityHarvester",
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1

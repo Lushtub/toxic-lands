@@ -10,7 +10,7 @@ mods.primaltech.ClayKiln.addRecipe(<ceramics:clay_bucket>, <ceramics:unfired_cla
 mods.primaltech.ClayKiln.addRecipe(<ceramics:unfired_clay:9>, <ceramics:unfired_clay:8>, 180);
 
 //Unfired Porcelain
-Mortar.addRecipe(<ceramics:unfired_clay:4> * 3, [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:quartz>, <minecraft:quartz>]);
+Mortar.addRecipe("porcelain", <ceramics:unfired_clay:4> * 3, [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:quartz>, <minecraft:quartz>]);
 mods.rustichromia.Quern.add("unfired_porcelain", [<minecraft:clay_ball> * 3, <minecraft:quartz> * 2], [<ceramics:unfired_clay:4> * 3], 3, 0, 200);
 
 //Porcelain Brick

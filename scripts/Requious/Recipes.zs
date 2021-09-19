@@ -16,7 +16,7 @@ recipes.addShaped(<requious:steam_alloy_smelter>, [[<thaumcraft:plate>, <content
 recipes.addShaped(<requious:steam_grinder>, [[<thaumcraft:plate>, <contenttweaker:bronze_pipe>, <thaumcraft:plate>], [<hwell:grinding_wheel_iron>, <contenttweaker:brick_brass_casing>, <hwell:grinding_wheel_iron>], [<thaumcraft:plate>, <contenttweaker:bronze_pipe>, <thaumcraft:plate>]]);
 
 //Steam Press
-recipes.addShaped(<requious:steam_press>, [[<thaumcraft:plate>, <contenttweaker:bronze_pipe>, <thaumcraft:plate>], [<jaopca:item_platedenseiron>, <contenttweaker:brick_brass_casing>, <jaopca:item_platedenseiron>], [<thaumcraft:plate>, <contenttweaker:bronze_pipe>, <thaumcraft:plate>]]);
+recipes.addShaped(<requious:steam_press>, [[<thaumcraft:plate>, <contenttweaker:bronze_pipe>, <thaumcraft:plate>], [<quark:iron_plate>, <contenttweaker:brick_brass_casing>, <quark:iron_plate>], [<thaumcraft:plate>, <contenttweaker:bronze_pipe>, <thaumcraft:plate>]]);
 
 //Steam Wiremill
 recipes.addShaped(<requious:steam_wiremill>, [[<thaumcraft:plate>, <contenttweaker:bronze_pipe>, <thaumcraft:plate>], [<immersiveengineering:material:20>, <contenttweaker:brick_brass_casing>, <immersiveengineering:material:20>], [<thaumcraft:plate>, <contenttweaker:bronze_pipe>, <thaumcraft:plate>]]);

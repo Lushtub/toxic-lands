@@ -14,11 +14,12 @@ mods.inspirations.Cauldron.addFluidRecipe(<hwell:myst_dust>, <hwell:dust>, <liqu
 recipes.addShaped(<hwell:fertile_soil>, [[<composter:compost>, <quark:turf>, <composter:compost>],[<quark:turf>, <quark:rune:5>, <quark:turf>], [<composter:compost>, <quark:turf>, <composter:compost>]]);
 
 //Mysterious Fertilizer
-Mortar.addRecipe(<hwell:myst_fertilizer> * 4, [<contenttweaker:carbonate_calcium>, <minecraft:dye:15>, <hwell:myst_dust>, <hwell:myst_dust>, <composter:compost>]);
+Mortar.addRecipe("myst_fertilizer", <hwell:myst_fertilizer> * 4, [<contenttweaker:carbonate_calcium>, <minecraft:dye:15>, <hwell:myst_dust>, <hwell:myst_dust>, <composter:compost>]);
+
 mods.rustichromia.Quern.add("mysterious_fertilizer", [<contenttweaker:carbonate_calcium>, <minecraft:dye:15>, <hwell:myst_dust> * 2, <composter:compost>], [<hwell:myst_fertilizer> * 4], 0, 3, 200);
 
 //Mutation Paste
-Mortar.addRecipe(<hwell:mutation_paste> * 3, [<hwell:myst_fertilizer>, <biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>, <minecraft:snowball>, <minecraft:snowball>]);
+Mortar.addRecipe("mutation_paste", <hwell:mutation_paste> * 3, [<hwell:myst_fertilizer>, <biomesoplenty:fleshchunk>, <biomesoplenty:fleshchunk>, <minecraft:snowball>, <minecraft:snowball>]);
 mods.rustichromia.Quern.add("mutation_paste", [<hwell:myst_fertilizer>, <biomesoplenty:fleshchunk> * 2, <minecraft:snowball> * 2], [<hwell:mutation_paste> * 3], 3, 10, 200);
 
 //Heavy Mix

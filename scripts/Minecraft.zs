@@ -51,7 +51,8 @@ mods.rustichromia.Quern.add("boneMealwithShard", [<contenttweaker:bone_shard>], 
 mods.primaltech.ClayKiln.addRecipe(<minecraft:brick>, <minecraft:clay_ball>, 180);
 
 //Gunpowder
-Mortar.addRecipe(<minecraft:gunpowder> * 2, [<minecraft:coal:1>, <immersiveengineering:material:25>, <immersiveengineering:material:25>, <immersiveengineering:material:24>, <immersiveengineering:material:24>]);
+
+Mortar.addRecipe("gunpowder", <minecraft:gunpowder> * 2, [<minecraft:coal:1>, <immersiveengineering:material:25>, <immersiveengineering:material:25>, <immersiveengineering:material:24>, <immersiveengineering:material:24>]);
 mods.rustichromia.Quern.add("gunpowder", [<minecraft:coal:1>, <immersiveengineering:material:25> * 2, <immersiveengineering:material:24> * 2], [<minecraft:gunpowder> * 2], 0, 3, 200);
 
 //Clay

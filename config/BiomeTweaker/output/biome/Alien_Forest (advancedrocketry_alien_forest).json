@@ -2,7 +2,7 @@
 {
   "ID": 228,
   "Name": "Alien Forest",
-  "Resource Location": "advancedrocketry:alien_forest",
+  "Resource Location": "advancedrocketry:alien forest",
   "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenAlienForest",
   "Root Height": 0.1,
   "Height Variation": 0.2,

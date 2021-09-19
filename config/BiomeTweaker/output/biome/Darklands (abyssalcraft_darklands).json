@@ -22,8 +22,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WASTELAND",
-    "SPOOKY"
+    "SPOOKY",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

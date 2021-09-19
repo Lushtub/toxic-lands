@@ -1,13 +1,13 @@
 
 {
-  "ID": 235,
-  "Name": "Ocean Spires",
-  "Resource Location": "advancedrocketry:oceanspires",
-  "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenOceanSpires",
-  "Root Height": -0.5,
-  "Height Variation": 0.0,
-  "Top Block": "minecraft:gravel",
-  "Filler Block": "minecraft:gravel",
+  "ID": 227,
+  "Name": "Moon",
+  "Resource Location": "advancedrocketry:moon",
+  "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenMoon",
+  "Root Height": 1.0,
+  "Height Variation": 0.2,
+  "Top Block": "advancedrocketry:moonturf",
+  "Filler Block": "advancedrocketry:moonturf",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
   "Actual Filler Blocks": [
@@ -16,17 +16,43 @@
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
-  "Temperature": 0.5,
-  "Humidity": 0.5,
+  "Temperature": 0.3,
+  "Humidity": 0.0,
   "Water Tint": 16777215,
-  "Enable Rain": true,
+  "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
-    "OCEAN"
+    "DRY",
+    "COLD",
+    "WASTELAND"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [],
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntitySheep",
+      "Weight": 12,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityCow",
+      "Weight": 8,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    }
+  ],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -75,48 +101,6 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityMimic",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityUndertaker",
-      "Weight": 30,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityBanshee",
-      "Weight": 20,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.flying.EntityGhostRay",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 2
-    },
-    {
-      "Entity Class": "lykrast.harvestersnight.common.EntityHarvester",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityDepthsGhoul",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
-    },
-    {
-      "Entity Class": "com.shinoow.abyssalcraft.common.entity.EntityAbyssalZombie",
-      "Weight": 10,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     }
   ],
   "Spawnable Water Creatures": [

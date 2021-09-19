@@ -226,7 +226,7 @@ abyssalcraft:omothol
 abyssalcraft:dark_realm
 abyssalcraft:purged
 advancedrocketry:moon
-advancedrocketry:alien_forest
+advancedrocketry:alien forest
 advancedrocketry:hotdryrock
 advancedrocketry:space
 advancedrocketry:stormland

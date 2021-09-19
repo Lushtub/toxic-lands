@@ -1,13 +1,13 @@
 
 {
-  "ID": 233,
-  "Name": "Deep Swamp",
-  "Resource Location": "advancedrocketry:deepswamp",
-  "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenDeepSwamp",
-  "Root Height": -0.1,
-  "Height Variation": 0.2,
-  "Top Block": "minecraft:grass[snowy\u003dfalse]",
-  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "ID": 229,
+  "Name": "HotDryRock",
+  "Resource Location": "advancedrocketry:hotdryrock",
+  "Class": "zmaster587.advancedRocketry.world.biome.BiomeGenHotDryRock",
+  "Root Height": 1.0,
+  "Height Variation": 0.01,
+  "Top Block": "advancedrocketry:hotturf",
+  "Filler Block": "advancedrocketry:hotturf",
   "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
   "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
   "Actual Filler Blocks": [
@@ -15,15 +15,16 @@
   ],
   "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
   "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-  "Water Color": "14745518",
+  "Water Color": "16777215",
   "Temperature": 0.9,
-  "Humidity": 0.9,
-  "Water Tint": 14745518,
-  "Enable Rain": true,
+  "Humidity": 0.0,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "WET"
+    "DRY",
+    "WASTELAND",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -102,24 +103,6 @@
       "Max Group Count": 1
     },
     {
-      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
-      "Weight": 1,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityZombieMushroom",
-      "Weight": 40,
-      "Min Group Count": 8,
-      "Max Group Count": 16
-    },
-    {
-      "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityFoglet",
-      "Weight": 20,
-      "Min Group Count": 8,
-      "Max Group Count": 16
-    },
-    {
       "Entity Class": "com.Fishmod.mod_LavaCow.entities.tameable.EntityMimic",
       "Weight": 20,
       "Min Group Count": 1,
@@ -134,6 +117,18 @@
     {
       "Entity Class": "com.Fishmod.mod_LavaCow.entities.EntityBanshee",
       "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.flying.EntityPtera",
+      "Weight": 20,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.Fishmod.mod_LavaCow.entities.flying.EntityGhostRay",
+      "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
     },

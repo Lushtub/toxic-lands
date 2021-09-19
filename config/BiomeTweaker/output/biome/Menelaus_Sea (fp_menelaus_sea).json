@@ -23,8 +23,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "HOT",
     "BEACH",
+    "HOT",
     "SANDY"
   ],
   "BiomeManager Entries": {},

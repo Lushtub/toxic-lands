@@ -4,9 +4,9 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
-roots:druid
-pneumaticcraft:mechanic
+roots:wild_mage
 matteroverdrive:mad_scientist
+pneumaticcraft:mechanic
 immersiveengineering:engineer
 bewitchment:hedge_witch
 bewitchment:alchemist
