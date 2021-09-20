@@ -20,7 +20,9 @@ recipes.addShaped(<primal_tech:wooden_hopper>, [[<thebetweenlands:items_misc:13>
 recipes.addShapeless(<primal_tech:rock>, [<survivalist:rock>]);
 
 //Twine
-recipes.addShapeless(<primal_tech:twine> * 3, [<primal_tech:plant_fibres>, <primal_tech:plant_fibres>,<primal_tech:plant_fibres>, <ore:knife>.transformDamage(2)]);
+for knife in <ore:knife>.items {
+recipes.addShapeless(<primal_tech:twine> * 3, [<primal_tech:plant_fibres>, <primal_tech:plant_fibres>, <primal_tech:plant_fibres>, knife.anyDamage().transformDamage(2)]);
+}
 
 //Water Saw
 recipes.addShaped(<primal_tech:water_saw>, [[<thebetweenlands:items_misc:13>, <primal_tech:flint_edged_disc>, <thebetweenlands:items_misc:13>],[<minecraft:stick>, <biomesoplenty:log_4:5>, <minecraft:stick>], [<thebetweenlands:items_misc:13>, <biomesoplenty:log_4:5>, <thebetweenlands:items_misc:13>]]);

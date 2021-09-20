@@ -15,6 +15,8 @@ RecipeBuilder.get("scribe")
   .setSecondaryIngredients([<quark:root_dye>, <immersiveengineering:metal:38>])
   .addTool(<thaumcraft:scribing_tools>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}))
+  .setMinimumTier(2)
+  .setMaximumTier(2)
   .create();
 
 RecipeBuilder.get("scribe")
@@ -22,6 +24,8 @@ RecipeBuilder.get("scribe")
   .setSecondaryIngredients([<quark:root_dye>, <contenttweaker:wrought_iron>])
   .addTool(<thaumcraft:scribing_tools>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "components"}))
+  .setMinimumTier(2)
+  .setMaximumTier(2)
   .create();
 
   RecipeBuilder.get("scribe")
@@ -29,6 +33,8 @@ RecipeBuilder.get("scribe")
   .setSecondaryIngredients([<quark:root_dye>, <minecraft:glass> * 3])
   .addTool(<thaumcraft:scribing_tools>, 1)
   .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "Chemist's Tools"}))
+  .setMinimumTier(2)
+  .setMaximumTier(2)
   .create();
   
 

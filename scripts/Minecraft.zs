@@ -1,7 +1,6 @@
 #Imports
 import mods.primaltech.ClayKiln;
 import mods.roots.Mortar;
-import crafttweaker.item.IItemTransformer;
 
 #Recipes
 
@@ -13,7 +12,7 @@ mods.inspirations.Cauldron.addFluidTransform(<liquid:water>, <quark:rune:11>, <l
 
 //Clay
 mods.inspirations.Cauldron.addFluidRecipe(<minecraft:clay_ball>, <earthworks:item_dirt> * 2, <liquid:poison>);
-mods.inspirations.Cauldron.addFluidRecipe(<minecraft:clay_ball>, <contenttweaker:midnight_dirt_pile> * 4, <liquid:poison>);
+mods.inspirations.Cauldron.addFluidRecipe(<minecraft:clay_ball>, <contenttweaker:toxic_dirt_pile> * 4, <liquid:poison>);
 
 //Cobblestone
 furnace.remove(<minecraft:cobblestone>);
@@ -27,8 +26,9 @@ recipes.addShaped(<minecraft:stone_shovel>, [[<primal_tech:twine>, <survivalist:
 recipes.addShaped(<minecraft:stone_hoe>, [[<survivalist:rock>, <primal_tech:twine>],[null, <minecraft:stick>]]);
 
 //String
-recipes.addShapeless(<minecraft:string> * 3, [<ore:knife>.transformDamage(2), <rustichromia:cotton_wool>]);
-
+for knife in <ore:knife>.items {
+recipes.addShapeless(<minecraft:string> * 3, [knife.anyDamage().transformDamage(1), <rustichromia:cotton_wool>]);
+}
 //Glass Pane
 furnace.addRecipe(<minecraft:glass_pane>, <quark:glass_shards>, 0.0);
 
@@ -97,8 +97,9 @@ recipes.addShaped(<minecraft:shield>, [[<contenttweaker:screw>, <bibliocraft:fra
 recipes.addShaped(<minecraft:sign> * 3, [[<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>],[<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>], [null, <minecraft:stick>, null]]);
 
 //Bowl
-recipes.addShapeless(<minecraft:bowl>, [<ore:knife>.transformDamage(2), <ore:boards>]);
-
+for knife in <ore:knife>.items {
+recipes.addShapeless(<minecraft:bowl>, [knife.anyDamage().transformDamage(2), <ore:boards>]);
+}
 //Tripwire
 recipes.addShaped(<minecraft:tripwire_hook>, [[<contenttweaker:screw>], [<minecraft:string>], [<bibliocraft:framingboard>]]);
 
@@ -116,7 +117,7 @@ recipes.addShapeless(<minecraft:torch> * 4, [<minecraft:coal>,<minecraft:stick>]
 recipes.addShaped(<minecraft:piston>, [[<ore:boards>, <ore:boards>, <ore:boards>], [<quark:sturdy_stone>, <mysticalmechanics:gear_iron>, <quark:sturdy_stone>], [<quark:sturdy_stone>, <minecraft:redstone>, <quark:sturdy_stone>]]);
 
 //Crafting Table
-recipes.addShaped(<minecraft:crafting_table>, [[<ore:boards>, <minecraft:leather>, <ore:boards>],[<immersiveengineering:tool:1>, <primal_tech:work_stump>, <artisanworktables:artisans_handsaw_flint>], [<ore:boards>, <ore:boards>, <ore:boards>]]);
+recipes.addShaped(<minecraft:crafting_table>, [[<ore:boards>, <minecraft:leather>, <ore:boards>], [<immersiveengineering:tool:1>, <primal_tech:work_stump>, <immcraft:saw>], [<ore:boards>, <ore:boards>, <ore:boards>]]);
 
 //Clay Block
 recipes.addShapeless(<minecraft:clay>, [<minecraft:clay_ball>,<minecraft:clay_ball>,<minecraft:clay_ball>,<minecraft:clay_ball>]);
@@ -124,3 +125,9 @@ recipes.addShapeless(<minecraft:clay>, [<minecraft:clay_ball>,<minecraft:clay_ba
 //Clay Ball
 recipes.addShapeless(<minecraft:clay_ball> * 4, [<minecraft:clay>]);
 
+//Bricks
+recipes.addShapeless(<minecraft:brick_block>, [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>, <contenttweaker:mortar>]);
+
+//Charcoal
+recipes.addShapeless(<minecraft:coal:1>*2, [<primal_tech:charcoal_block>, <immcraft:saw>.anyDamage().transformDamage(2)]);
+mods.primaltech.WaterSaw.addRecipe(<minecraft:coal:1>*2, <primal_tech:charcoal_block>, 80);

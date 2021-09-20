@@ -15,6 +15,8 @@ recipes.addShaped(<immcraft:shelf>, [[<minecraft:stick>, <biomesoplenty:log_4:5>
 //Furnace
 recipes.addShaped(<immcraft:furnace>, [[<minecraft:stonebrick>, <contenttweaker:stone_brick>, <minecraft:stonebrick>],[<contenttweaker:stone_brick>, <contenttweaker:mortar>, <contenttweaker:stone_brick>], [<minecraft:stonebrick>, <contenttweaker:stone_brick>, <minecraft:stonebrick>]]);
 
+//Saw
+recipes.addShaped(<immcraft:saw>, [[<contenttweaker:flint_shard>, <primal_tech:twine>],[<contenttweaker:flint_shard>, <minecraft:stick>]]);
 
 
 

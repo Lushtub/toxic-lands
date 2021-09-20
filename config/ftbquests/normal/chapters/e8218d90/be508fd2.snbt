@@ -1,15 +1,15 @@
 {
-	x: 15.0d,
-	y: -6.0d,
+	x: 7.0d,
+	y: 0.0d,
 	shape: "rsquare",
 	dependencies: [
-		"b0db9381"
+		"8de3af33"
 	],
 	tasks: [{
-		uid: "8d8ed603",
+		uid: "b96f7597",
 		type: "item",
 		items: [{
-			item: "minecraft:glowstone_dust"
+			item: "tinkersforging:forge"
 		}]
 	}]
 }

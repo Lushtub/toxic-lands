@@ -22,7 +22,7 @@ recipes.addShaped(<rustichromia:axle_wood>*2, [[null, null, <rustichromia:plate_
 mods.primaltech.StoneAnvil.addRecipe(<rustichromia:plate_wood>, <rustichromia:dust_wood>);
 
 //Sawdust
-mods.primaltech.WaterSaw.addRecipe(<rustichromia:dust_wood>*2, <minecraft:stick>, 80);
+mods.primaltech.WaterSaw.addRecipe(<rustichromia:dust_wood>*2, <contenttweaker:wood_pin>, 80);
 
 //Assembler MK3
 mods.rustichromia.Assembler.removeAll();

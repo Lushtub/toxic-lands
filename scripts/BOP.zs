@@ -1,10 +1,15 @@
 #Recipes
 
 //Flesh
-recipes.addShapeless(<biomesoplenty:fleshchunk> * 2, [<ore:knife>.transformDamage(2), <abyssalcraft:corflesh>]);
+for knife in <ore:knife>.items {
+recipes.addShapeless(<biomesoplenty:fleshchunk> * 2, [knife.anyDamage().transformDamage(2), <abyssalcraft:corflesh>]);
+}
 
 //Mud Brick
 mods.primaltech.ClayKiln.addRecipe(<biomesoplenty:mud_brick>, <biomesoplenty:mudball>, 180);
 
 //Mud Bricks
 recipes.addShapeless(<biomesoplenty:mud_brick_block>, [<biomesoplenty:mud_brick>, <biomesoplenty:mud_brick>, <biomesoplenty:mud_brick>, <biomesoplenty:mudball>]);
+
+//Toxic Dirt
+recipes.addShapeless(<biomesoplenty:dirt>, [<contenttweaker:toxic_dirt_pile>,<contenttweaker:toxic_dirt_pile>,<contenttweaker:toxic_dirt_pile>,<contenttweaker:toxic_dirt_pile>]);

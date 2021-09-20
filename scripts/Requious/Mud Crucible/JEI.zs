@@ -77,7 +77,7 @@ x.addJEIRecipe(mystSaplingJEI);
 var ashJEI = AssemblyRecipe.create(function(c) {
   c.addItemOutput('output', <mist:ash>);
 })
-.requireItem("input", (<contenttweaker:bark>))
+.requireItem("input", (<thebetweenlands:items_crushed:16>))
 .requireDuration("duration", 400);
 x.addJEIRecipe(ashJEI);
 
@@ -88,3 +88,11 @@ var glassPaneJEI = AssemblyRecipe.create(function(c) {
 .requireItem("input", (<contenttweaker:carbon>))
 .requireDuration("duration", 400);
 x.addJEIRecipe(glassPaneJEI);
+
+var carbonBrickJEI = AssemblyRecipe.create(function(c) {
+  c.addItemOutput('output', <contenttweaker:unfinished_carbon_brick>);
+})
+.requireItem("input", (<contenttweaker:stone_brick>))
+.requireItem("input", (<rockhounding_chemistry:chemical_dusts:24> * 4))
+.requireDuration("duration", 400);
+x.addJEIRecipe(carbonBrickJEI);

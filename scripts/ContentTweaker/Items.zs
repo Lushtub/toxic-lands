@@ -11,17 +11,9 @@ flintshard.register();
 var toxicseeds = VanillaFactory.createItem("toxic_grass_seeds");
 toxicseeds.register();
 
-//Midnight Dirt Pile
-var midnightdirt = VanillaFactory.createItem("midnight_dirt_pile");
-midnightdirt.register();
-
-//Bark
-var bark = VanillaFactory.createItem("bark");
-bark.register();
-
-//Toughened Bark
-var toughenedbark = VanillaFactory.createItem("toughened_bark");
-toughenedbark.register();
+//Toxic Dirt Pile
+var toxicdirt = VanillaFactory.createItem("toxic_dirt_pile");
+toxicdirt.register();
 
 //Wooden Pin
 var woodpin = VanillaFactory.createItem("wood_pin");
@@ -70,10 +62,6 @@ aquamarine.register();
 var rimecrystal = VanillaFactory.createItem("rime_crystal");
 rimecrystal.register();
 
-//Blank Blueprint
-var blueprint = VanillaFactory.createItem("blueprint_blank");
-blueprint.register();
-
 //Anvil Mold
 var moldanvil = VanillaFactory.createItem("mold_anvil");
 moldanvil.register();
@@ -85,16 +73,6 @@ wroughtiron.register();
 //Obsidian Ingot
 var obsidianingot = VanillaFactory.createItem("obsidian_ingot");
 obsidianingot.register();
-
-//Double Ingots
-var irondoubleingot = VanillaFactory.createItem("iron_double_ingot");
-irondoubleingot.register();
-
-var bronzedoubleingot = VanillaFactory.createItem("bronze_double_ingot");
-bronzedoubleingot.register();
-
-var brassdoubleingot = VanillaFactory.createItem("brass_double_ingot");
-brassdoubleingot.register();
 
 //Plates
 var plateIridium = VanillaFactory.createItem("plate_iridium");

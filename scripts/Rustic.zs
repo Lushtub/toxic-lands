@@ -8,11 +8,6 @@ recipes.addShaped(<rustic:condenser>, [[<minecraft:brick>, <biomesoplenty:mudbal
 
 #Elixirs
 
-//Antidote
-val antidoteElixir = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "potioncore:antidote", Duration: 6000, Amplifier: 0}]});
-
-mods.rustic.Condenser.addRecipe(antidoteElixir, <mod_lavacow:poisonspore>, <hwell:myst_dust>);
-
 //Instant Health
 
 val antidoteLife = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]});

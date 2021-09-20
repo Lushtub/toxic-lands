@@ -1,0 +1,15 @@
+{
+	x: 8.5d,
+	y: -7.5d,
+	shape: "rsquare",
+	dependencies: [
+		"aeff8f5e"
+	],
+	tasks: [{
+		uid: "46884f40",
+		type: "item",
+		items: [{
+			item: "tinkersforging:tinkers_anvil/iron"
+		}]
+	}]
+}
