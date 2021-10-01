@@ -6,15 +6,20 @@ import mods.requious.SlotVisual;
 
 var x = <assembly:mud_crucible>;
 
-x.addRecipe(AssemblyRecipe.create(function(c) {
-  c.addItemOutput('output', <enderio:item_alloy_endergy_ingot>);
-})
-.requireItem("input", (<terraqueous:item_main:215> * 3))
-.requireItem("input", (<minecraft:clay_ball> * 2))
-.requireItem("input", (<mist:ash> * 2))
-.requireItem("input", (<contenttweaker:carbon>))
-.requireDuration("duration", 400)
-);
+function addMudCrucibleRecipe(input1 as IIngredient, input2 as IIngredient, input3 as IIngredient, input4 as IIngredient, output as IItemStack, duration as int) {
+    val assRec = AssemblyRecipe.create(function(container) {
+          container.addItemOutput("output", output);
+    });
+    assRec.requireItem("input", input1);
+    assRec.requireItem("input", input2);
+    assRec.requireItem("input", input3);
+    assRec.requireItem("input", input4);
+    assRec.requireDuration("duration", duration);
+    x.addJEIRecipe(assRec);
+    x.addRecipe(assRec);
+}
+
+addMudCrucibleRecipe(<terraqueous:item_main:215> * 3, <minecraft:clay_ball> * 2, <mist:ash> * 2, <contenttweaker:carbon>, <enderio:item_alloy_endergy_ingot>, 400);
 
 x.addRecipe(AssemblyRecipe.create(function(c) {
   c.addItemOutput('output', <quark:glass_shards> * 3);
