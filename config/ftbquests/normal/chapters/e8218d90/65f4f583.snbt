@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"6460fa8d"
+	],
+	tasks: [{
+		uid: "6c922647",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_device"
+		}]
+	}]
+}

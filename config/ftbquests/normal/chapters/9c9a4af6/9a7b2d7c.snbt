@@ -1,0 +1,15 @@
+{
+	x: -4.5d,
+	y: 4.0d,
+	shape: "rsquare",
+	dependencies: [
+		"cef4d073"
+	],
+	tasks: [{
+		uid: "7e67d485",
+		type: "item",
+		items: [{
+			item: "integrateddynamics:squeezer"
+		}]
+	}]
+}

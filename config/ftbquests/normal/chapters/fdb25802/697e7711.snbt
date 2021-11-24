@@ -1,0 +1,16 @@
+{
+	x: 8.5d,
+	y: 2.5d,
+	dependencies: [
+		"b7d7514b",
+		"0c51a8c9",
+		"00461378"
+	],
+	tasks: [{
+		uid: "01e166eb",
+		type: "item",
+		items: [{
+			item: "roots:pyre"
+		}]
+	}]
+}

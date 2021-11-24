@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	dependencies: [
+		"9ca752e8"
+	],
+	tasks: [{
+		uid: "f67a8cb6",
+		type: "item",
+		items: [{
+			item: "futuremc:campfire"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 11.5d,
+	y: 5.5d,
+	shape: "rsquare",
+	dependencies: [
+		"acd9c8a7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "006974b8",
+		type: "item",
+		items: [{
+			item: "survivalist:sawmill"
+		}]
+	}]
+}

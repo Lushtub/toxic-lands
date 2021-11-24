@@ -1,0 +1,38 @@
+{
+	x: 16.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"I finally got a source of water! Now I should make strainers to get useful things from straining water, and get a renewable source of a bunch of items."
+	],
+	dependencies: [
+		"4fa0ccfe"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "c85f1fc4",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_survivalist"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "05744ade",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_survivalist_dense"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "88f4b528",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_base"
+		}]
+	}]
+}

@@ -1,0 +1,72 @@
+
+{
+  "ID": 1,
+  "Name": "Decaying Prairie",
+  "Resource Location": "minecraft:plains",
+  "Class": "net.minecraft.world.biome.BiomePlains",
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
+  "Top Block": "defiledlands:grass_defiled[snowy\u003dfalse]",
+  "Filler Block": "defiledlands:dirt_defiled",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]",
+    "defiledlands:stone_defiled"
+  ],
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 0.8,
+  "Humidity": 0.4,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "PLAINS"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      200
+    ],
+    "WARM Weights": [
+      10,
+      200
+    ],
+    "COOL Weights": [
+      10,
+      200
+    ],
+    "ICY Weights": [
+      200
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "ru.liahim.mist.entity.EntitySniff",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {},
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "DRY_TEMPERATE": [
+      5
+    ],
+    "WARM_TEMPERATE": [
+      20
+    ],
+    "MEDITERANEAN": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

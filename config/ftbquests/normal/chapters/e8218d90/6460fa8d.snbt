@@ -1,0 +1,22 @@
+{
+	title: "Entering the Steam Age",
+	icon: "contenttweaker:brass_casing",
+	x: 2.5d,
+	y: -6.0d,
+	shape: "hexagon",
+	description: "Inspired by GT™",
+	text: [
+		"Ah, the hard manual labor...",
+		"",
+		"I should definitely begin to automate more and more, to create my own factory. And one thing I know, is that every factory begin with steam. ",
+		"And steam two favorites alloys are Brass & Bronze. I'll definitely need a lot."
+	],
+	dependencies: [
+		"fa1ad976"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "6fb1f770",
+		type: "checkmark"
+	}]
+}

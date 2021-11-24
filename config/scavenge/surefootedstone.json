@@ -1,0 +1,56 @@
+{
+    "block_pools": [
+        {
+            "name": "surefootedstone",
+            "type": {
+                "type": "block",
+                "name": "roots:chiseled_runestone"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "quark:rune",
+                    "meta": 9
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "roots:runestone_trample",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_item",
+                    "name": "quark:rune",
+                    "amount": 1,
+                    "meta": 9
+                },
+                {
+                    "type": "play_sound",
+                    "name": "thaumcraft:bubble",
+                    "category": "entity",
+                    "volume": 2,
+                    "disableJEI": true
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "cloud",
+                    "amount": 50,
+                    "xOffset": 0,
+                    "yOffset": 0,
+                    "zOffset": 0,
+                    "speed":0.1,
+                    "disableJEI": true
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+	title: "The Alchemy Basics",
+	x: -2.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "All you need to know about transmutation, infusion and chemical exchanges!",
+	text: [
+		"I heavily advise you to read this chapter ! It's super useful if you want to learn more about the way to get metals and other reources in this world."
+	],
+	dependencies: [
+		"6b757e92"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5a19b93f",
+		type: "checkmark",
+		icon: "inspirations:materials 1 2"
+	}]
+}

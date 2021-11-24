@@ -1,0 +1,14 @@
+{
+	title: "The Depths of this World",
+	x: -4.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"You succesfully joined the depth of this strange world. There is a layer of obsidian that block your way even deeper. You need to find a way to break it."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "45bfe4ab",
+		type: "checkmark"
+	}]
+}

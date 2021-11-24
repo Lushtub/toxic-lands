@@ -1,0 +1,19 @@
+{
+	title: "Alchemical Brass",
+	x: -4.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	text: [
+		"Brass can be made by alloying Zinc and Copper, but you can't create Zinc yet. You'll need to create some with alchemy."
+	],
+	dependencies: [
+		"980912f9"
+	],
+	tasks: [{
+		uid: "0f108539",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	}]
+}

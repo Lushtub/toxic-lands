@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	dependencies: [
+		"ff03ad22"
+	],
+	tasks: [{
+		uid: "680fd3cb",
+		type: "item",
+		items: [{
+			item: "midnight:nagrilite_ingot"
+		}]
+	}]
+}

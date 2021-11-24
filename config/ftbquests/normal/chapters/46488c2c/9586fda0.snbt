@@ -1,0 +1,18 @@
+{
+	title: "Entering the Darkness",
+	icon: "forbidden_arcanus:dark_matter",
+	x: 5.5d,
+	y: 1.5d,
+	shape: "gear",
+	dependencies: [
+		"b2b6ca97"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "92ff1951",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 25"
+		}]
+	}]
+}

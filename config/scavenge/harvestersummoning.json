@@ -1,0 +1,546 @@
+{
+    "block_pools": [
+        {
+            "name": "summoning_harvester",
+            "type": {
+                "type": "block",
+                "name": "botania:felpumpkin"
+            },
+            "clicktype": "rightclick",
+            "disableJEI": true,
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "mod_lavacow:ectoplasm"
+                },
+                {
+                    "type": "consume_item",
+                    "name": "mod_lavacow:ectoplasm",
+                    "amount": 1
+                },
+                {
+                    "type": "consume_block",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "harvestersnight:harvester.spawn",
+                    "category": "entity",
+                    "volume": 2,
+                    "disableJEI": true
+                },
+                {
+                    "type": "use_command",
+                    "name": "summon harvestersnight:harvester ~0 ~2 ~0",
+                    "disableJEI": true
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "magicCrit",
+                    "amount": 35,
+                    "xOffset": 0,
+                    "yOffset": 0,
+                    "zOffset": 0,
+                    "speed":1,
+                    "disableJEI": true
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "enchantmenttable",
+                    "amount": 35,
+                    "xOffset": 2,
+                    "yOffset": 0,
+                    "zOffset": 2,
+                    "speed":1,
+                    "disableJEI": true
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "enchantmenttable",
+                    "amount": 35,
+                    "xOffset": -2,
+                    "yOffset": 0,
+                    "zOffset": 2,
+                    "speed":1,
+                    "disableJEI": true
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "enchantmenttable",
+                    "amount": 35,
+                    "xOffset": 2,
+                    "yOffset": 0,
+                    "zOffset": -2,
+                    "speed":1,
+                    "disableJEI": true
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "enchantmenttable",
+                    "amount": 35,
+                    "xOffset": -2,
+                    "yOffset": 0,
+                    "zOffset": -2,
+                    "speed":1,
+                    "disableJEI": true
+                },
+                {
+                    "type": "has_block_structure",
+                    "blocks": [
+                        {
+                            "name": "biomesoplenty:grass",
+                            "meta": 7,
+                            "positions": [
+                                {
+                                    "x": 1,
+                                    "y": -1,
+                                    "z": 1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": -1,
+                                    "z": -1
+                                },
+                                {
+                                    "x": -1,
+                                    "y": -1,
+                                    "z": 1
+                                },
+                                {
+                                    "x": -1,
+                                    "y": -1,
+                                    "z": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "hwell:graft_green",
+                            "positions": [
+                                {
+                                    "x": -1,
+                                    "y": -1,
+                                    "z": 0
+                                },
+                                {
+                                    "x": 1,
+                                    "y": -1,
+                                    "z": 0
+                                },
+                                {
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 1
+                                },
+                                {
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "quark:glowstone_dust_block",
+                            "positions": [
+                                {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "minecraft:farmland",
+                            "positions": [
+                                {
+                                    "x": 2,
+                                    "y": -1,
+                                    "z": 0
+                                },
+                                {
+                                    "x": 2,
+                                    "y": -1,
+                                    "z": 1
+                                },
+                                {
+                                    "x": 2,
+                                    "y": -1,
+                                    "z": -1
+                                },
+                                {
+                                    "x": -2,
+                                    "y": -1,
+                                    "z": 0
+                                },
+                                {
+                                    "x": -2,
+                                    "y": -1,
+                                    "z": 1
+                                },
+                                {
+                                    "x": -2,
+                                    "y": -1,
+                                    "z": -1
+                                },
+                                {
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 2
+                                },
+                                {
+                                    "x": 1,
+                                    "y": -1,
+                                    "z": 2
+                                },
+                                {
+                                    "x": -1,
+                                    "y": -1,
+                                    "z": 2
+                                },
+                                {
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": -2
+                                },
+                                {
+                                    "x": 1,
+                                    "y": -1,
+                                    "z": -2
+                                },
+                                {
+                                    "x": -1,
+                                    "y": -1,
+                                    "z": -2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "roots:wildroot_crop",
+                            "meta": 7,
+                            "positions": [
+                                {
+                                    "x": 2,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                {
+                                    "x": 2,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": 2,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": -2,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                {
+                                    "x": -2,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": -2,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 2
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 2
+                                },
+                                {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 2
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": -2
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": -2
+                                },
+                                {
+                                    "x": -1,
+                                    "y":  0,
+                                    "z": -2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "thebetweenlands:betweenstone_bricks",
+                            "positions": [
+                                {
+                                    "x": 2,
+                                    "y": -1,
+                                    "z": 2
+                                },
+                                {
+                                    "x": 2,
+                                    "y": -1,
+                                    "z": -2
+                                },
+                                {
+                                    "x": -2,
+                                    "y": -1,
+                                    "z": 2
+                                },
+                                {
+                                    "x": -2,
+                                    "y": -1,
+                                    "z": -2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "quark:candle",
+                            "meta": 5,
+                            "positions": [
+                                {
+                                    "x": 2,
+                                    "y": 0,
+                                    "z": 2
+                                },
+                                {
+                                    "x": 2,
+                                    "y": 0,
+                                    "z": -2
+                                },
+                                {
+                                    "x": -2,
+                                    "y": 0,
+                                    "z": 2
+                                },
+                                {
+                                    "x": -2,
+                                    "y": 0,
+                                    "z": -2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "place_block_structure",
+                    "blocks": [
+                        {
+                            "name": "minecraft:air",
+                            "positions": [
+                                {
+                                    "x": 2,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                {
+                                    "x": 2,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": 2,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": -2,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                {
+                                    "x": -2,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": -2,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 2
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 2
+                                },
+                                {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 2
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": -2
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": -2
+                                },
+                                {
+                                    "x": -1,
+                                    "y":  0,
+                                    "z": -2
+                                },
+                                {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": -1
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 1
+                                },
+                                {
+                                    "x": -1,
+                                    "y": 0,
+                                    "z": 0
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0,
+                                    "z": 0
+                                }
+                            ]
+                        },
+                        {
+                            "name": "hwell:core_stone",
+                            "positions": [
+                                {
+                                    "x": -1,
+                                    "y": -1,
+                                    "z": 0
+                                },
+                                {
+                                    "x": 1,
+                                    "y": -1,
+                                    "z": 0
+                                },
+                                {
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": 1
+                                },
+                                {
+                                    "x": 0,
+                                    "y": -1,
+                                    "z": -1
+                                }                              
+                            ]
+                        },
+                        {
+                            "name": "minecraft:dirt",
+                            "positions": [
+                                {
+                                    "x": 1,
+                                    "y": -1,
+                                    "z": 1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": -1,
+                                    "z": -1
+                                },
+                                {
+                                    "x": -1,
+                                    "y": -1,
+                                    "z": 1
+                                },
+                                {
+                                    "x": -1,
+                                    "y": -1,
+                                    "z": -1
+                                }                         
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                }
+            ]
+        }
+    ]
+}

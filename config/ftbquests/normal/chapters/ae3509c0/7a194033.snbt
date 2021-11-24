@@ -1,0 +1,39 @@
+{
+	title: "The Toxic Lands",
+	x: -6.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"I wake up.",
+		"",
+		"My mind is blurry and my lips are lead.",
+		"",
+		"I quickly notice that my surroundings are nothing like I ever knew. Everything differs between shades of purple. The trees, the plants, even the fluids are all violet.",
+		"",
+		"And there is a permanent putrid odor in the air. ",
+		"",
+		"How did I ended up here, and what is this place?",
+		"",
+		"Last thing I remembered, is being in the lab. My team and I were doing experiments on wormholes.",
+		"",
+		"Could it be... ? But that wouldn't make any sense. I wouldn't survive getting carried by a wormhole...",
+		"",
+		"But even though, it seems I'm here.",
+		"",
+		"A discovery like this is a big step for science...",
+		"",
+		"...but a one-way ticket to death for me.",
+		"",
+		"The probability of this planet having what I need to survive are extremely low. At least, there's breathable air. Good start.",
+		"",
+		"I can begin by collecting the resources that I can find down there, and see what I can make from them.",
+		"",
+		"I probably won't survive, but I have nothing to lose, so why not try to..."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "e104191c",
+		type: "checkmark",
+		title: "Important Informations"
+	}]
+}

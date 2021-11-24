@@ -1,0 +1,10 @@
+# Exclude files and directories in top directory
+/*
+
+# Whitelist
+!scripts/
+!config/
+!resources/
+!structures/
+!.gitignore
+!README.md

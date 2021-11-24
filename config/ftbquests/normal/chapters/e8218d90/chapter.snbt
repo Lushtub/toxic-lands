@@ -1,0 +1,7 @@
+{
+	title: "Ch. 2 Technical Innovations",
+	icon: "contenttweaker:brick_brass_casing",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

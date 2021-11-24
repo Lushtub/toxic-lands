@@ -1,0 +1,20 @@
+{
+	title: "Stone Dust",
+	icon: "hwell:dust",
+	x: 9.5d,
+	y: -1.5d,
+	text: [
+		"I should try to crush various component on my anvil. At the moments, rocks is the only material that is worth crushing."
+	],
+	dependencies: [
+		"ff399214"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e70e8764",
+		type: "item",
+		items: [{
+			item: "hwell:dust"
+		}]
+	}]
+}

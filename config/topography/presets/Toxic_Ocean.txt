@@ -1,0 +1,17 @@
+
+
+//Sets the dimension to be only the Toxic Ocean biome.
+setSingleBiome("minecraft:ocean")
+
+
+//Adds a basic overworld terrain generator. Handles base block/fluid generator and biome block replacement. It uses multithreading for its noise generators, so it's slightly faster than vanilla.
+overworld = new OverworldGenerator()
+overworld.setTerrainBlock(<defiledlands:stone_defiled>)
+overworld.setOceanBlock(<biomesoplenty:poison>)
+overworld.setSeaLevel(63)
+addGenerator(overworld)
+
+
+//Sets the spawn structure for the dimension.
+setSpawnStructure("startingisland", 62)
+

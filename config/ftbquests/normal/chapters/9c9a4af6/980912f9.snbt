@@ -1,0 +1,26 @@
+{
+	title: "The Crucible",
+	x: -2.0d,
+	y: 0.5d,
+	shape: "hexagon",
+	description: "Basically a Magic Cauldron",
+	text: [
+		"First, you'll need fire under it and water in it if you want it to work. It's used to create components with aspects and a solid component. Aspects are",
+		"values that most of the items does have. You'll need a precize number of specific aspects types. Try to not exceed the number of aspects, or put types",
+		"you don't need, or it will create flux in the world. If you let your crucible for too long with aspects in, they will evaporate and spread flux too. You'll be able",
+		"to clear flux later."
+	],
+	dependencies: [
+		"aa8eee1b",
+		"f846c1bb",
+		"be47f66c"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "58b41a3a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}]
+}

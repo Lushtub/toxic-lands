@@ -1,0 +1,22 @@
+{
+	title: "Salis Mundus",
+	x: 1.0d,
+	y: -2.5d,
+	description: "Highly Unstable!",
+	text: [
+		"Salis Mundus can be created in the mortar with salt and mysterious dust as main components. It's highly unstable, and have important magic",
+		"properties."
+	],
+	dependencies: [
+		"d2976998",
+		"a6480213",
+		"6bd3f39c"
+	],
+	tasks: [{
+		uid: "69d7b454",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

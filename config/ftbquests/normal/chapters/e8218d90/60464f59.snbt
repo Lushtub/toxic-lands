@@ -1,0 +1,16 @@
+{
+	title: "Small Boiler",
+	icon: "requious:small_boiler",
+	x: 2.5d,
+	y: -4.5d,
+	dependencies: [
+		"6460fa8d"
+	],
+	tasks: [{
+		uid: "44e2032a",
+		type: "item",
+		items: [{
+			item: "requious:small_boiler"
+		}]
+	}]
+}

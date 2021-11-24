@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	dependencies: [
+		"4b7f7bbf",
+		"cef4d073"
+	],
+	tasks: [{
+		uid: "8aec4e2b",
+		type: "item",
+		items: [{
+			item: "densemetals:dense_copper_ore"
+		}]
+	},
+	{
+		uid: "8620218a",
+		type: "item",
+		items: [{
+			item: "densemetals:dense_tin_ore"
+		}]
+	},
+	{
+		uid: "50e36594",
+		type: "item",
+		items: [{
+			item: "densemetals:dense_iron_ore"
+		}]
+	}]
+}

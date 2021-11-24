@@ -1,0 +1,30 @@
+{
+	title: "A Cauldron",
+	icon: "morecauldrons:oak_cauldron",
+	x: 5.0d,
+	y: 0.0d,
+	text: [
+		"I need a bucket to transport liquids. A wooden one should be enough for now. I hope he doesn't leak. A cauldron would be useful to store liquids and make experiments too."
+	],
+	dependencies: [
+		"9ca752e8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "79f24f88",
+		type: "item",
+		items: [{
+			item: "morecauldrons:oak_cauldron"
+		}]
+	},
+	{
+		uid: "b2afbb2b",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket",
+			tag: {
+				Fluid: {}
+			}
+		}]
+	}]
+}

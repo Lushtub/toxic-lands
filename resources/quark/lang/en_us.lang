@@ -1,0 +1,20 @@
+tile.quark:rope.name=Hemp Rope
+tile.quark:soul_powder.name=Soul Sand Pile
+
+item.quark:rune_black.name=Chaos Rune
+item.quark:rune_blue.name=Purification Rune
+item.quark:rune_brown.name=Gluttony Rune
+item.quark:rune_cyan.name=Depth Rune
+item.quark:rune_gray.name=Death Rune
+item.quark:rune_green.name=Wild Rune
+item.quark:rune_light_blue.name=Magica Rune
+item.quark:rune_lime.name=Verdant Rune
+item.quark:rune_magenta.name=Defiled Rune
+item.quark:rune_orange.name=Fiery Rune
+item.quark:rune_pink.name=Life Rune
+item.quark:rune_purple.name=Mystery Rune
+item.quark:rune_red.name=Hell Rune
+item.quark:rune_silver.name=Balance Rune
+item.quark:rune_white.name=Frozen Rune
+item.quark:rune_yellow.name=Arid Rune
+item.quark:rune_rainbow.name=Corruption Rune

@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 4.0d,
+	dependencies: [
+		"6e7fc2ce"
+	],
+	tasks: [{
+		uid: "21241e3e",
+		type: "item",
+		items: [{
+			item: "roots:runestone"
+		}]
+	}]
+}

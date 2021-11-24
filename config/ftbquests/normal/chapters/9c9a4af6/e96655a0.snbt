@@ -1,0 +1,19 @@
+{
+	title: "Container for your mix",
+	x: -3.5d,
+	y: -2.0d,
+	description: "To not spread fluids all over the floor",
+	text: [
+		"You'll need some kind of reservoir to contain extract. Glass is a neat material for it."
+	],
+	dependencies: [
+		"be47f66c"
+	],
+	tasks: [{
+		uid: "b0eaaa14",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_bottle"
+		}]
+	}]
+}

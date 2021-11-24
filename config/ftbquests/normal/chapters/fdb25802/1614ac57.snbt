@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 5.5d,
+	dependencies: [
+		"bbd216d6"
+	],
+	tasks: [{
+		uid: "e711d5b6",
+		type: "item",
+		items: [{
+			item: "rustichromia:crank"
+		}]
+	}]
+}

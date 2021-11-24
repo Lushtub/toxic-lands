@@ -1,0 +1,70 @@
+{
+    "block_pools": [
+        {
+            "name": "pyre",
+            "type": {
+                "type": "block",
+                "name": "futuremc:campfire"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "quark:rune",
+                    "meat": 5
+                },
+                {
+                    "type": "require_item",
+                    "name": "survivalist:rock",
+                    "count": 8,
+                    "offhand": true
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "consume_block",
+                    "name": "roots:pyre",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_item",
+                    "name": "quark:rune",
+                    "meta": 5,
+                    "amount": 1,
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_item",
+                    "name": "survivalist:rock",
+                    "amount": 8,
+                    "offHand": true,
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "roots:spell.acid_cloud",
+                    "category": "entity",
+                    "volume": 2,
+                    "disableJEI": true
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "campfireCosySmoke",
+                    "amount": 50,
+                    "xOffset": 0,
+                    "yOffset": 0,
+                    "zOffset": 0,
+                    "speed":0.1,
+                    "disableJEI": true
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                }
+            ]
+        }
+    ]
+}

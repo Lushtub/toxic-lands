@@ -1,0 +1,32 @@
+{
+	icon: {
+		id: "requious:battery_iron",
+		tag: {
+			energy: 2000
+		}
+	},
+	x: 13.5d,
+	y: -6.0d,
+	shape: "hexagon",
+	dependencies: [
+		"6c4dc403"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "fbdcf334",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 5"
+		}]
+	},
+	{
+		uid: "278f8f50",
+		type: "item",
+		items: [{
+			id: "requious:battery_iron",
+			tag: {
+				energy: 2000
+			}
+		}]
+	}]
+}

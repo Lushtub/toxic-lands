@@ -1,0 +1,7 @@
+{
+	title: "Ch. 7 Gravitational Manipulations",
+	icon: "forbidden_arcanus:dark_matter",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

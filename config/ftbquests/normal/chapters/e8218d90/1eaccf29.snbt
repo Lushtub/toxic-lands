@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	dependencies: [
+		"a88ca0c8"
+	],
+	tasks: [{
+		uid: "3df0383a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_multiblock"
+		}]
+	}]
+}

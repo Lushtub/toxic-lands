@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: -4.5d,
+	dependencies: [
+		"f0b5f109"
+	],
+	tasks: [{
+		uid: "616d98f9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wrought_iron"
+		}]
+	}]
+}

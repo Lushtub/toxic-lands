@@ -1,0 +1,7 @@
+{
+	title: "Ch. 8 A Way Home",
+	icon: "biomesoplenty:earth",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: -6.0d,
+	dependencies: [
+		"eaf2dc00"
+	],
+	tasks: [{
+		uid: "fa6d8c64",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"tinkersforging:forge_item": {
+					temp: 0.0f,
+					work: 75,
+					tick: -1L,
+					steps: {
+						last: -1,
+						third: -1,
+						second: -1
+					}
+				}
+			},
+			id: "minecraft:iron_ingot"
+		}]
+	}]
+}

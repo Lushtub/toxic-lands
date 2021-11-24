@@ -1,0 +1,16 @@
+{
+	title: "Summon Frigid",
+	icon: "mod_lavacow:shattered_ice",
+	x: 11.5d,
+	y: 2.5d,
+	dependencies: [
+		"0648eebb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7647add6",
+		type: "kill",
+		entity: "mod_lavacow:zombiefrozen",
+		value: 1L
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "Ch. 0 The Awakening",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "poison",
+			Amount: 1000
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

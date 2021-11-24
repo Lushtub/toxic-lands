@@ -1,0 +1,46 @@
+{
+	title: "Resources Gathering",
+	icon: "survivalist:rock",
+	x: -4.0d,
+	y: 0.0d,
+	description: "I wonder where these bones come from...",
+	text: [
+		""
+	],
+	dependencies: [
+		"7a194033"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a9aebc8c",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 8L
+	},
+	{
+		uid: "1e28989f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bone_shard"
+		}],
+		count: 4L
+	},
+	{
+		uid: "006d2536",
+		type: "item",
+		items: [{
+			item: "survivalist:rock"
+		}],
+		count: 8L
+	},
+	{
+		uid: "d96a4f9b",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 4L
+	}]
+}

@@ -1,0 +1,63 @@
+{
+    "block_pools": [
+        {
+            "name": "catalystplate",
+            "type": {
+                "type": "block",
+                "name": "roots:chiseled_runestone"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:anima_dust"
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "drop_items"
+                },
+                {
+                    "type": "consume_block",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_item",
+                    "name": "contenttweaker:anima_dust",
+                    "amount": 1,
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "roots:spell.acid_cloud",
+                    "category": "entity",
+                    "volume": 2,
+                    "disableJEI": true
+                },
+                {
+                    "type": "spawn_particles",
+                    "name": "campfireCosySmoke",
+                    "amount": 50,
+                    "xOffset": 0,
+                    "yOffset": 0,
+                    "zOffset": 0,
+                    "speed":0.1,
+                    "disableJEI": true
+                }
+            ],
+            "drops": [
+                {
+                    "name": "roots:catalyst_plate",
+                    "amount": 1
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                }
+            ]
+        }
+    ]
+}

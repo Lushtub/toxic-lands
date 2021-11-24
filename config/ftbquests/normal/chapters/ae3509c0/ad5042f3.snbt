@@ -1,0 +1,20 @@
+{
+	title: "A Better Bucket",
+	x: 6.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"With my kiln, I can cook potery. A clay bucket would be useful."
+	],
+	dependencies: [
+		"d1eb9092"
+	],
+	hide: true,
+	tasks: [{
+		uid: "587cabc8",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_bucket"
+		}]
+	}]
+}

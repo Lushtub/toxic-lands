@@ -1,0 +1,16 @@
+{
+	title: "An Elixir of Knowledge",
+	x: 7.0d,
+	y: 1.0d,
+	dependencies: [
+		"554ce93b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "710ebf72",
+		type: "item",
+		items: [{
+			item: "contenttweaker:knowledge_elixir"
+		}]
+	}]
+}

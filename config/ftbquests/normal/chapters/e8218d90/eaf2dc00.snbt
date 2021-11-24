@@ -1,0 +1,16 @@
+{
+	x: -2.55d,
+	y: -5.95d,
+	shape: "rsquare",
+	dependencies: [
+		"eae2eda5"
+	],
+	size: 1.7d,
+	tasks: [{
+		uid: "923f9575",
+		type: "item",
+		items: [{
+			item: "mysticalmechanics:gear_iron"
+		}]
+	}]
+}

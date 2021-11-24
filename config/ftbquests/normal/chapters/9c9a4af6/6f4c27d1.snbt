@@ -1,0 +1,18 @@
+{
+	title: "The Alchemic Condenser",
+	x: -6.5d,
+	y: -2.5d,
+	text: [
+		"The Alchemic Condenser is a mundane machine designed by the ancient to create Extracts and Elixirs."
+	],
+	dependencies: [
+		"b0b9d991"
+	],
+	tasks: [{
+		uid: "8a527964",
+		type: "item",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: -5.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "45682983",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 5"
+		}]
+	}]
+}

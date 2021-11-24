@@ -1,0 +1,58 @@
+{
+    "block_pools": [
+        {
+            "name": "brick",
+            "type": {
+                "type": "block",
+                "name": "midnight:nightstone"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "minecraft:flint"
+                },
+                {
+                    "type": "consume_item",
+                    "amount": 1
+                },
+                {
+                    "type": "drop_items",
+                    "disableJEI": true
+                },
+                {
+                    "type": "require_sneak"
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.stone.hit",
+                    "category": "entity",
+                    "volume": 2,
+                    "disableJEI": true
+                }
+            ],
+            "drops": [
+                {
+                    "name": "contenttweaker:flint_shard",
+                    "amount": 1,
+                    "weight": 5
+                },
+                {
+                    "name": "contenttweaker:flint_shard",
+                    "amount": 2,
+                    "weight": 5
+                }
+            ],
+            "messages": [
+                {
+                    "id": "require_sneak",
+                    "message": "You must sneak to do that!"
+                }
+            ]
+        }
+    ]
+}

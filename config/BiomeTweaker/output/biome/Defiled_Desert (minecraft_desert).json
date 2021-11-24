@@ -1,0 +1,81 @@
+
+{
+  "ID": 2,
+  "Name": "Defiled Desert",
+  "Resource Location": "minecraft:desert",
+  "Class": "net.minecraft.world.biome.BiomeDesert",
+  "Root Height": 0.125,
+  "Height Variation": 0.05,
+  "Top Block": "defiledlands:sand_defiled",
+  "Filler Block": "defiledlands:sandstone_defiled",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": [
+    "minecraft:stone[variant\u003dstone]",
+    "defiledlands:stone_defiled"
+  ],
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "16777215",
+  "Temperature": 2.0,
+  "Humidity": 0.0,
+  "Water Tint": 16777215,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "SANDY",
+    "DRY",
+    "HOT"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      200
+    ],
+    "WARM Weights": [
+      200
+    ],
+    "COOL Weights": [
+      200
+    ],
+    "ICY Weights": [
+      200
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "ru.liahim.mist.entity.EntityMomo",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "ru.liahim.mist.entity.EntityCyclops",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.mushroom.midnight.common.entity.creature.EntityStinger",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": true,
+  "BOP Generators": {},
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "HOT_DESERT": [
+      30
+    ],
+    "WASTELAND": [
+      1
+    ]
+  },
+  "BOP Island Weight": 0
+}

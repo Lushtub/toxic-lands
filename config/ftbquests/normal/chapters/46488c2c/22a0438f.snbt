@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 3.5d,
+	dependencies: [
+		"2f9d2795"
+	],
+	tasks: [{
+		uid: "65d61d34",
+		type: "item",
+		items: [{
+			item: "primal:obsidian_shard"
+		}]
+	}]
+}

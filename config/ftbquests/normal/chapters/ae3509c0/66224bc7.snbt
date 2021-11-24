@@ -1,0 +1,34 @@
+{
+	title: "Work Blade",
+	icon: "roots:stone_knife",
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"Making a basic knife would definitely increase my chances of survival.",
+		"",
+		"It would also help me crafting."
+	],
+	dependencies: [
+		"fe9fe57d",
+		"dc0d0b22"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0f44614a",
+		type: "item",
+		items: [{
+			item: "roots:stone_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "85c59f6b",
+		type: "item",
+		items: [{
+			item: "primal_tech:twine"
+		}],
+		count: 3L,
+		consume_items: false
+	}]
+}

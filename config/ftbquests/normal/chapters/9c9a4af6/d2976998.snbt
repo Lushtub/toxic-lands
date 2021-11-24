@@ -1,0 +1,28 @@
+{
+	title: "The Mortar",
+	x: -0.5d,
+	y: -2.0d,
+	description: "A need to make advanced Chemical Components.",
+	text: [
+		"You will need this to crush and mix powders to make ore advanced ones. It can be automated later on with machines."
+	],
+	dependencies: [
+		"be47f66c"
+	],
+	tasks: [{
+		uid: "c5f28a66",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	},
+	{
+		uid: "14a99f62",
+		type: "item",
+		items: [{
+			item: "roots:pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

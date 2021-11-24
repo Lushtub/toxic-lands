@@ -1,0 +1,15 @@
+{
+	x: 14.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"4fa0ccfe"
+	],
+	tasks: [{
+		uid: "58b0b4c2",
+		type: "item",
+		items: [{
+			item: "primal_tech:water_saw"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: 2.5d,
+	dependencies: [
+		"533c9d65"
+	],
+	tasks: [{
+		uid: "0fb85317",
+		type: "item",
+		items: [{
+			item: "quark:turf"
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "More Weapons",
+	icon: "progressiontweaks:tomahawk",
+	x: 3.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	text: [
+		"I could make more weapons to hunt more easily. A spear and a tomahawk as ranged weapon would be good."
+	],
+	dependencies: [
+		"9ca752e8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bbafc6c8",
+		type: "item",
+		items: [{
+			item: "progressiontweaks:tomahawk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e2b9e58",
+		type: "item",
+		items: [{
+			item: "progressiontweaks:spear"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

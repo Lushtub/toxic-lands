@@ -1,0 +1,28 @@
+{
+	title: "Dried Fibers",
+	icon: "primal_tech:plant_fibres",
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"I can dry the plant fibers that I have to make them more durable. To do so, I would need to have some sort of Drying Rack."
+	],
+	dependencies: [
+		"9ca6db4b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "926fa6b3",
+		type: "item",
+		items: [{
+			item: "survivalist:rack"
+		}]
+	},
+	{
+		uid: "2cd727f0",
+		type: "item",
+		items: [{
+			item: "primal_tech:plant_fibres"
+		}],
+		count: 3L
+	}]
+}

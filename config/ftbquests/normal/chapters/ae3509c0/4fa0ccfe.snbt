@@ -1,0 +1,25 @@
+{
+	title: "H2O",
+	x: 14.0d,
+	y: 0.0d,
+	text: [
+		"The words \"Purification Runes\" are written on the relic. Maybe I could purify poison to water with it?"
+	],
+	dependencies: [
+		"074ba5d7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5094d58f",
+		type: "item",
+		items: [{
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "water",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

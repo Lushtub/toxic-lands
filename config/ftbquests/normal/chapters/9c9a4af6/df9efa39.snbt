@@ -1,0 +1,42 @@
+{
+	title: "Metal Extracts",
+	x: -5.0d,
+	y: -2.5d,
+	description: "Don't drink them!",
+	text: [
+		"Extracts are made in the alchemic condenser and can be transmutated into their physic variant."
+	],
+	dependencies: [
+		"6f4c27d1",
+		"e96655a0",
+		"41e388c8"
+	],
+	tasks: [{
+		uid: "595229dd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:copper_extract"
+		}]
+	},
+	{
+		uid: "2126b436",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_extract"
+		}]
+	},
+	{
+		uid: "67078fbd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:tin_extract"
+		}]
+	},
+	{
+		uid: "046abdf1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:quartz_extract"
+		}]
+	}]
+}

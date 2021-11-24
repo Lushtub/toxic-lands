@@ -1,0 +1,16 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets if the mod should print documentation.
+printDocumentation(false)
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+
+overworld = registerPreset("Toxic Lands", "images/Toxic_Lands", "A Decaying and Poisonous World. The Default Experience.")
+overworld.registerDimension(0, "presets/Toxic_Lands")
+
+overworld = registerPreset("Toxic Ocean", "images/Toxic_Ocean", "An Endless Poison Ocean. Limited Space and Tedious Early Game. Are you up to the Challenge?")
+overworld.registerDimension(0, "presets/Toxic_Ocean")
+

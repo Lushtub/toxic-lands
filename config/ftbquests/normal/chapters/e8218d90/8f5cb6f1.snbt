@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: -7.5d,
+	shape: "rsquare",
+	dependencies: [
+		"064d8630"
+	],
+	tasks: [{
+		uid: "d4e99c60",
+		type: "item",
+		items: [{
+			item: "antiqueatlas:empty_antique_atlas"
+		}]
+	}]
+}

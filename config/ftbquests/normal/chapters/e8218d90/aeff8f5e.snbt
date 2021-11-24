@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: -7.5d,
+	dependencies: [
+		"f540f794"
+	],
+	tasks: [{
+		uid: "dc828e7a",
+		type: "item",
+		items: [{
+			item: "foundry:machine 1 1"
+		}]
+	}]
+}

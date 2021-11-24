@@ -1,0 +1,11 @@
+{
+	x: -4.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "ccbecd64",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing 1 3"
+		}]
+	}]
+}

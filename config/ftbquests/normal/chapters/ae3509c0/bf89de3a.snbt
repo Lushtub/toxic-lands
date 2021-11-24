@@ -1,0 +1,33 @@
+{
+	title: "A Source of Meat",
+	icon: "midnight:raw_stag_flank",
+	x: 0.5d,
+	y: 1.5d,
+	text: [
+		"The fauna here seems pretty passive, fortunately.",
+		"",
+		"I don't know how they would react if I attack them though.",
+		"",
+		"It's definitely worth the try if I can get a stable source of meat and bones."
+	],
+	dependencies: [
+		"4e1c5143"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cdad36e1",
+		type: "item",
+		items: [{
+			item: "midnight:raw_stag_flank"
+		}],
+		count: 4L
+	},
+	{
+		uid: "93c44559",
+		type: "item",
+		items: [{
+			item: "minecraft:bone"
+		}],
+		count: 2L
+	}]
+}

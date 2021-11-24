@@ -1,0 +1,19 @@
+{
+	title: "Sulfur (S)",
+	x: 4.0d,
+	y: -1.0d,
+	text: [
+		"Sulfur is pretty useful in making a bunch of chemical components.  It can make Sulfuric Acid."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"be47f66c"
+	],
+	tasks: [{
+		uid: "c47b2a65",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 25"
+		}]
+	}]
+}

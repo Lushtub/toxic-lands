@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: -1.0d,
+	dependencies: [
+		"cb0f406d"
+	],
+	tasks: [{
+		uid: "3643d424",
+		type: "item",
+		items: [{
+			item: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Ch. 4 The Scientist",
+	icon: "abyssalcraft:shadowgem",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

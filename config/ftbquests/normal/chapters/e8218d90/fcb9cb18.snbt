@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -3.0d,
+	dependencies: [
+		"0fa50a03"
+	],
+	tasks: [{
+		uid: "c7155416",
+		type: "item",
+		items: [{
+			item: "roots:runestone_trample"
+		}]
+	}]
+}

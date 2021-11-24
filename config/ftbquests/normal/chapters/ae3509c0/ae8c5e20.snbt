@@ -1,0 +1,22 @@
+{
+	title: "Cooked Meat",
+	x: 2.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	text: [
+		"Now that I have a firecamp, I can cook the food that I got for hunting the native creatures of this dimension."
+	],
+	dependencies: [
+		"b5c60396",
+		"bf89de3a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a6eedb7d",
+		type: "item",
+		items: [{
+			item: "midnight:cook_stag_flank"
+		}],
+		count: 4L
+	}]
+}

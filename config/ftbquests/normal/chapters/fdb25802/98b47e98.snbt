@@ -1,0 +1,70 @@
+{
+	icon: "minecraft:stone_hoe",
+	x: 4.0d,
+	y: 2.5d,
+	text: [
+		"I can gather turf to get seeds with a shovel."
+	],
+	dependencies: [
+		"b6934726"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d8f67e8d",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	},
+	{
+		uid: "b6b067cf",
+		type: "item",
+		items: [{
+			item: "inspirations:potato_seeds"
+		}]
+	},
+	{
+		uid: "8baab5fc",
+		type: "item",
+		items: [{
+			item: "inspirations:carrot_seeds"
+		}]
+	},
+	{
+		uid: "8b06378b",
+		type: "item",
+		items: [{
+			item: "randomthings:grassseeds"
+		}]
+	},
+	{
+		uid: "2e8cc3d1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:toxic_grass_seeds"
+		}]
+	},
+	{
+		uid: "8900570b",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c42010ac",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:seed"
+		}]
+	},
+	{
+		uid: "7ca3b79a",
+		type: "item",
+		items: [{
+			item: "rustichromia:cotton_seed"
+		}]
+	}]
+}

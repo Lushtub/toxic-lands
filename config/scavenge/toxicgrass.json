@@ -1,0 +1,39 @@
+{
+    "block_pools": [
+        {
+            "name": "toxicgrass",
+            "type": {
+                "type": "block",
+                "name": "biomesoplenty:dirt"
+            },
+            "clicktype": "rightclick",
+            "properties": [
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:toxic_grass_seeds"
+                },
+                {
+                    "type": "consume_item",
+                    "name": "contenttweaker:toxic_grass_seeds",
+                    "amount": 1
+                },
+                {
+                    "type": "swing_hand",
+                    "disableJEI": true
+                },
+                {
+                    "type": "consume_block",
+                    "name": "biomesoplenty:grass",
+                    "meta": 2
+                },
+                {
+                    "type": "play_sound",
+                    "name": "minecraft:block.grass.break",
+                    "category": "block",
+                    "volume": 2,
+                    "disableJEI": true
+                }
+            ]
+        }
+    ]
+}

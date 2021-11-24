@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+ <recipe disabled="true" name="Tweak: Chest from Wood" required="false">
+ <crafting>
+ <grid>
+ <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+ <item name="logWood"/><item/><item name="logWood"/>
+ <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+ </grid>
+ <output name="minecraft:chest, chestWood" amount="4" />
+ </crafting>
+ </recipe>
+
+ <recipe disabled="true" name="Tweak: Stick from Wood" required="false">
+ <crafting>
+ <grid size="1x2">
+ <item name="logWood"/>
+ <item name="logWood"/>
+ </grid>
+ <output name="minecraft:stick, stickWood" amount="16" />
+ </crafting>
+ </recipe>
+
+ <recipe disabled="true" name="Tweak: Wood Hopper" required="false">
+ <crafting>
+ <grid>
+ <item name="IRON"/><item name="logWood"/><item name="IRON"/>
+ <item name="IRON"/><item name="logWood"/><item name="IRON"/>
+ <item/><item name="IRON"/><item/>
+ </grid>
+ <output name="minecraft:hopper, blockHopper" />
+ </crafting>
+ </recipe>
+
+ <recipe disabled="true" name="Gear, Wood" required="true">
+ <crafting>
+ <grid>
+ <item /><item name="stickWood"/><item />
+ <item name="stickWood"/><item /><item name="stickWood"/>
+ <item /><item name="stickWood"/><item />
+ </grid>
+ <output name="GEAR_WOOD"/>
+ </crafting>
+ </recipe>
+
+ <recipe disabled="true" name="Gear, ae2 messes things up" required="true">
+ <crafting>
+ <grid>
+ <item name="stickWood"/><item /><item name="stickWood"/>
+ <item /><item /><item />
+ <item name="stickWood"/><item /><item name="stickWood"/>
+ </grid>
+ <output name="GEAR_WOOD"/>
+ </crafting> 
+ </recipe>
+
+ <recipe disabled="true" name="Gear, just to be sure" required="true">
+ <crafting>
+ <grid size="3x2">
+ <item name="stickWood"/><item /><item name="stickWood"/>
+ <item name="stickWood"/><item /><item name="stickWood"/>
+ </grid>
+ <output name="GEAR_WOOD"/>
+ </crafting>
+ </recipe>
+
+ <recipe disabled="true" name="Gear, better save than sorry" required="true">
+ <crafting>
+ <grid size="2x3">
+ <item name="stickWood"/><item name="stickWood"/>
+ <item /><item />
+ <item name="stickWood"/><item name="stickWood"/>
+ </grid>
+ <output name="GEAR_WOOD"/>
+ </crafting>
+ </recipe>
+
+  <recipe disabled="true" name="Gear, Stone" required="true">
+ <crafting>
+ <grid>
+ <item name="stickWood"/><item name="oredict:cobblestone"/><item name="stickWood"/>
+ <item name="oredict:cobblestone"/><item /><item name="oredict:cobblestone"/>
+ <item name="stickWood"/><item name="oredict:cobblestone"/><item name="stickWood"/>
+ </grid>
+ <output name="GEAR_STONE"/>
+ </crafting>
+ </recipe>
+
+ <recipe disabled="true" name="Gear, Stone, Upgrade" required="true">
+ <crafting>
+ <grid>
+ <item /><item name="oredict:cobblestone"/><item />
+ <item name="oredict:cobblestone"/><item name="GEAR_WOOD"/><item name="oredict:cobblestone"/>
+ <item /><item name="oredict:cobblestone"/><item />
+ </grid>
+ <output name="GEAR_STONE"/>
+ </crafting>
+ </recipe>
+
+</enderio:recipes>

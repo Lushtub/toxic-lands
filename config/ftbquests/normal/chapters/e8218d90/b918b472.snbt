@@ -1,0 +1,30 @@
+{
+	icon: "immersiveengineering:stone_device 1 1",
+	x: 10.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	dependencies: [
+		"d6b2a0e4"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "c6cab267",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"tinkersforging:forge_item": {
+					temp: 0.0f,
+					work: 75,
+					tick: -1L,
+					steps: {
+						last: -1,
+						third: -1,
+						second: -1
+					}
+				}
+			},
+			id: "immersiveengineering:metal",
+			Damage: 8s
+		}]
+	}]
+}

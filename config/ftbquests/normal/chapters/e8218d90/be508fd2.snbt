@@ -1,0 +1,15 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"8de3af33"
+	],
+	tasks: [{
+		uid: "b96f7597",
+		type: "item",
+		items: [{
+			item: "tinkersforging:forge"
+		}]
+	}]
+}

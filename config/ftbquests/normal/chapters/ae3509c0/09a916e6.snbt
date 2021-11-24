@@ -1,0 +1,25 @@
+{
+	icon: "roots:mortar",
+	x: 2.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	dependencies: [
+		"4e1c5143"
+	],
+	tasks: [{
+		uid: "5b836baf",
+		type: "item",
+		items: [{
+			item: "roots:mortar"
+		}]
+	},
+	{
+		uid: "aa141b95",
+		type: "item",
+		items: [{
+			item: "roots:pestle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
