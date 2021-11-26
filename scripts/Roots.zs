@@ -4,7 +4,7 @@
 recipes.addShaped(<roots:pestle>, [[null, null, <survivalist:rock>],[<contenttweaker:bone_shard>, <survivalist:rock>, null], [<contenttweaker:bone_shard>, <contenttweaker:bone_shard>, null]]);
 
 //Mortar
-recipes.addShaped(<roots:mortar>, [[<midnight:nightstone>, null, <midnight:nightstone>],[<midnight:nightstone>, <survivalist:rock>, <midnight:nightstone>], [null, <midnight:nightstone>, null]]);
+recipes.addShaped(<roots:mortar>, [[<defiledlands:stone_defiled>, null, <defiledlands:stone_defiled>],[<defiledlands:stone_defiled>, <survivalist:rock>, <defiledlands:stone_defiled>], [null, <defiledlands:stone_defiled>, null]]);
 
 //Flint Knife
 recipes.addShaped(<roots:stone_knife>, [[<primal_tech:plant_fibres>, <contenttweaker:flint_shard>],[<minecraft:stick>, <contenttweaker:flint_shard>]]);

@@ -4,17 +4,17 @@
             "name": "toxicgrass",
             "type": {
                 "type": "block",
-                "name": "biomesoplenty:dirt"
+                "name": "defiledlands:dirt_defiled"
             },
             "clicktype": "rightclick",
             "properties": [
                 {
                     "type": "require_item",
-                    "name": "contenttweaker:toxic_grass_seeds"
+                    "name": "contenttweaker:toxic_seeds"
                 },
                 {
                     "type": "consume_item",
-                    "name": "contenttweaker:toxic_grass_seeds",
+                    "name": "contenttweaker:toxic_seeds",
                     "amount": 1
                 },
                 {
@@ -23,8 +23,7 @@
                 },
                 {
                     "type": "consume_block",
-                    "name": "biomesoplenty:grass",
-                    "meta": 2
+                    "name": "defiledlands:grass_defiled"
                 },
                 {
                     "type": "play_sound",

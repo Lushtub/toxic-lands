@@ -13,7 +13,7 @@ toxicseeds.register();
 
 //Toxic Dirt Pile
 var defileddirt = VanillaFactory.createItem("defiled_dirt_pile");
-defiledirt.register();
+defileddirt.register();
 
 //Wooden Pin
 var woodpin = VanillaFactory.createItem("wood_pin");

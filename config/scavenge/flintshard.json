@@ -4,7 +4,7 @@
             "name": "brick",
             "type": {
                 "type": "block",
-                "name": "midnight:nightstone"
+                "name": "defiledlands:stone_defiled"
             },
             "clicktype": "rightclick",
             "properties": [
