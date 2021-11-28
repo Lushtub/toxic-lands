@@ -38,13 +38,6 @@
 		}]
 	},
 	{
-		uid: "2e8cc3d1",
-		type: "item",
-		items: [{
-			item: "contenttweaker:toxic_grass_seeds"
-		}]
-	},
-	{
 		uid: "8900570b",
 		type: "item",
 		items: [{

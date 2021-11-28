@@ -1,2 +1,6 @@
 item.thebetweenlands.ground_weedwood_bark.name=Ground Dry Bark
 item.thebetweenlands.bl_bucket_weedwood.name=Crude Bucket
+tile.thebetweenlands.swamp_reed.name=Reed
+item.thebetweenlands.swamp_reed_item.name=Reed
+tile.thebetweenlands.swamp_reed_underwater.name=Reed (underwater)
+item.thebetweenlands.dried_swamp_reed.name=Dried Reed

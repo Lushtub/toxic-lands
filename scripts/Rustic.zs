@@ -20,4 +20,7 @@ mods.rustic.CrushingTub.removeRecipe(<rusticthaumaturgy:cinderfire_wort>);
 mods.rustic.CrushingTub.addRecipe(<liquid:cinderfire_wort>*750, null, <terraqueous:item_main:251>);
 
 
-
+//Crushing Tub
+for knife in <ore:knife>.items {
+recipes.addShaped(<rustic:crushing_tub>, [[<primal_tech:twine>, knife.anyDamage().transformDamage(2), <primal_tech:twine>],[<ore:boards>, <enderio:item_alloy_endergy_nugget>, <ore:boards>], [<ore:boards>, <ore:boards>, <ore:boards>]]);
+}

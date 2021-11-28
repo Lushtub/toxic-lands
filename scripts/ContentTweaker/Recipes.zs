@@ -74,3 +74,5 @@ mods.rustic.Condenser.addRecipe(<contenttweaker:quartz_extract>, <rustic:cloudsb
 //Runestone Mix
 mods.rustichromia.Quern.add("runestone_mix", [<minecraft:clay>, <hwell:dust> * 4, <mist:ash> * 2, <contenttweaker:bone_shard> * 3], [<contenttweaker:runestone_mix>], 0, 3, 200);
 
+//Anima Dust
+mods.roots.Mortar.addRecipe("anima_dust", <contenttweaker:anima_dust> * 4, [<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}), <hwell:myst_dust>, <hwell:myst_dust>, <hwell:myst_dust>, <hwell:myst_dust>]);

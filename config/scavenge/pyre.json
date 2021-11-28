@@ -11,7 +11,7 @@
                 {
                     "type": "require_item",
                     "name": "quark:rune",
-                    "meat": 5
+                    "meta": 5
                 },
                 {
                     "type": "require_item",

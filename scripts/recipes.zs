@@ -3,5 +3,4 @@
 //#Remove
 //Don't touch me!
 //#Add
-recipes.addShaped(<mist:urn:1>, [[<minecraft:clay_ball>, <ceramics:unfired_clay:8>, <minecraft:clay_ball>],[<ceramics:unfired_clay:8>, null, <ceramics:unfired_clay:8>], [<minecraft:clay_ball>, <ceramics:unfired_clay:8>, <minecraft:clay_ball>]]);
 //File End

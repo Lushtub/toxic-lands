@@ -1,41 +1,35 @@
 import mods.dropt.Dropt;
 
 
-    Dropt.list("list_name")
+Dropt.list("list_name")
 
   .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:grass:2"])
+      .matchBlocks(["defiledlands:grass_defiled"])
       .addDrop(Dropt.drop()
-          .items([<contenttweaker:toxic_dirt_pile>], Dropt.range(1, 4))
-      )
-  );
-
-  Dropt.list("list_name")
-  .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:dirt"])
-      .addDrop(Dropt.drop()
-          .items([<contenttweaker:toxic_dirt_pile>], Dropt.range(1, 4))
+          .items([<contenttweaker:defiled_dirt_pile>], Dropt.range(1, 4))
       )
   );
 
 Dropt.list("list_name")
 
   .add(Dropt.rule()
-      .matchBlocks(["biomesoplenty:leaves_1:8"])
-      .matchDrops([<biomesoplenty:sapling_0:4>])
-      .replaceStrategy("REPLACE_ITEMS")
-      .addDrop(Dropt.drop())
-  );
-
-    Dropt.list("list_name")
-  .add(Dropt.rule()
-      .matchBlocks(["campfire:ash"])
+      .matchBlocks(["defiledlands:dirt_defiled"])
       .addDrop(Dropt.drop()
-          .items([<mist:ash>], Dropt.range(1))
+          .items([<contenttweaker:defiled_dirt_pile>], Dropt.range(1, 4))
       )
   );
 
-      Dropt.list("list_name")
+Dropt.list("list_name")
+
+  .add(Dropt.rule()
+      .matchBlocks(["futuremc:campfire"])
+      .addDrop(Dropt.drop()
+          .items([<biomesoplenty:ash>], Dropt.range(1))
+      )
+  );
+
+Dropt.list("list_name")
+
   .add(Dropt.rule()
       .matchBlocks(["ore:treeLeaves"])
       .addDrop(Dropt.drop()

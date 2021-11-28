@@ -20,6 +20,11 @@ mods.primitivecrafting.addRecipe(<contenttweaker:quartz_extract>, <minecraft:qua
 mods.primitivecrafting.addRecipe(<rockhounding_chemistry:chemical_dusts:44>, <mekanism:salt>, <hwell:mutation_paste>);
 mods.primitivecrafting.addRecipe(<mekanism:salt>, <rockhounding_chemistry:chemical_dusts:44>, <hwell:mutation_paste>);
 
+//Nitrate
+mods.primitivecrafting.addRecipe(<immersiveengineering:material:24>, <contenttweaker:carbonate_calcium>, <hwell:mutation_paste>);
+mods.primitivecrafting.addRecipe(<contenttweaker:carbonate_calcium>, <immersiveengineering:material:24>, <hwell:mutation_paste>);
+
+
 //Saplings
 
 val oreDictSaplings = <ore:transmutableSapling>;

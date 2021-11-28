@@ -21,3 +21,6 @@ recipes.addShapeless(<survivalist:rock> * 4, [<minecraft:cobblestone>]);
 
 //Tanned Leather
 gigaherz.survivalist.Dryable.removeRecipe(<survivalist:tanned_leather>);
+
+//Chopping Block
+recipes.addShapeless(<survivalist:chopping_block>, [<minecraft:log>,<minecraft:stone_axe>.anyDamage().transformDamage(2)]);

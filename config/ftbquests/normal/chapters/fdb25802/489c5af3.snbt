@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 2.5d,
+	dependencies: [
+		"98b47e98"
+	],
+	tasks: [{
+		uid: "5b98250e",
+		type: "item",
+		items: [{
+			item: "minecraft:sugar"
+		}]
+	}]
+}

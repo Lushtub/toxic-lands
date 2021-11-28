@@ -7,7 +7,7 @@ import mods.zensummoning.MobInfo;
 
 
 //Ritual
-mods.roots.Rituals.modifyRitual("ritual_summon_creatures", [<contenttweaker:summoner_book>.reuse(), <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}), <hwell:myst_dust>, <contenttweaker:anima_dust>, <contenttweaker:anima_dust>]);
+mods.roots.Rituals.modifyRitual("ritual_summon_creatures", [<contenttweaker:summoner_book>.reuse(), <hwell:myst_dust>, <hwell:myst_dust>, <contenttweaker:anima_dust>, <contenttweaker:anima_dust>]);
 
 //Cow
 mods.roots.SummonCreatures.removeEntity(<entity:minecraft:cow>);
@@ -64,7 +64,7 @@ mods.roots.SummonCreatures.removeEntity(<entity:minecraft:stray>);
 mods.roots.SummonCreatures.removeEntity(<entity:minecraft:parrot>);
 mods.roots.SummonCreatures.removeEntity(<entity:minecraft:zombie>);
 mods.roots.SummonCreatures.removeEntity(<entity:mysticalworld:entity_beetle>);
-mods.roots.SummonCreatures.removeEntity(<entity:minecraft:pigman>);
+mods.roots.SummonCreatures.removeEntity(<entity:minecraft:zombie_pigman>);
 mods.roots.SummonCreatures.removeEntity(<entity:minecraft:horse>);
 mods.roots.SummonCreatures.removeEntity(<entity:minecraft:wolf>);
 mods.roots.SummonCreatures.removeEntity(<entity:minecraft:polar_bear>);

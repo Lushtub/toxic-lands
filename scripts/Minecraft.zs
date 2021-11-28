@@ -24,6 +24,9 @@ furnace.remove(<minecraft:cobblestone>);
 
 recipes.addShapeless(<minecraft:cobblestone>, [<survivalist:rock>,<survivalist:rock>,<survivalist:rock>,<survivalist:rock>]);
 
+//Dirt
+recipes.addShapeless(<minecraft:dirt>, [<earthworks:item_dirt>,<earthworks:item_dirt>,<earthworks:item_dirt>,<earthworks:item_dirt>]);
+
 //Stone Tools
 recipes.addShaped(<minecraft:stone_pickaxe>, [[<survivalist:rock>, <survivalist:rock>],[<primal_tech:twine>, <minecraft:stick>]]);
 recipes.addShaped(<minecraft:stone_axe>, [[<survivalist:rock>, <primal_tech:twine>],[<survivalist:rock>, <minecraft:stick>]]);

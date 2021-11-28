@@ -59,11 +59,6 @@
                     "weight": 6
                 },
                 {
-                    "name": "contenttweaker:toxic_grass_seeds",
-                    "amount": 2,
-                    "weight": 8
-                },
-                {
                     "name": "rustichromia:cotton_seed",
                     "amount": 1,
                     "weight": 6

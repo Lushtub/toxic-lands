@@ -10,11 +10,11 @@
             "properties": [
                 {
                     "type": "require_item",
-                    "name": "contenttweaker:toxic_seeds"
+                    "name": "contenttweaker:defiled_grass_seeds"
                 },
                 {
                     "type": "consume_item",
-                    "name": "contenttweaker:toxic_seeds",
+                    "name": "contenttweaker:defiled_grass_seeds",
                     "amount": 1
                 },
                 {
