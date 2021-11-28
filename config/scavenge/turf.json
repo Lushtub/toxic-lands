@@ -67,6 +67,11 @@
                     "name": "randomthings:grassseeds",
                     "amount": 1,
                     "weight": 4
+                },
+                {
+                    "name": "inspirations:sugar_cane_seeds",
+                    "amount": 1,
+                    "weight": 4
                 }
             ],
             "messages": [

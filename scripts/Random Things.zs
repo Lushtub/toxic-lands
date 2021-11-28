@@ -5,4 +5,4 @@ mods.bloodmagic.AlchemyArray.addRecipe(<randomthings:ingredient:2>, <contenttwea
 );
 
 //Platforms
-recipes.addShaped(<randomthings:platform> * 4, [[<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>],[<bibliocraft:framingboard>, null, <bibliocraft:framingboard>]]);
+recipes.addShaped(<randomthings:platform> * 4, [[<ore:basic_boards>, <ore:basic_boards>, <ore:basic_boards>],[<contenttweaker:wood_pin>, null, <contenttweaker:wood_pin>]]);

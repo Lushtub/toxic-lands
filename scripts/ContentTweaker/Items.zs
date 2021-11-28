@@ -214,10 +214,6 @@ bottleectoplasm.register();
 var knowledgeelixir = VanillaFactory.createItem("knowledge_elixir");
 knowledgeelixir.register();
 
-//Reed Seeds
-var reedseeds = VanillaFactory.createItem("reed_seeds");
-reedseeds.register();
-
 //Boards
 var regNames as string[] = [
 "board_oak",

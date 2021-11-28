@@ -76,3 +76,4 @@ mods.rustichromia.Quern.add("runestone_mix", [<minecraft:clay>, <hwell:dust> * 4
 
 //Anima Dust
 mods.roots.Mortar.addRecipe("anima_dust", <contenttweaker:anima_dust> * 4, [<rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}), <hwell:myst_dust>, <hwell:myst_dust>, <hwell:myst_dust>, <hwell:myst_dust>]);
+mods.rustichromia.Quern.add("anima_dust", [<hwell:myst_dust> * 4, <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]})], [<contenttweaker:anima_dust> * 4], 0, 3, 200);

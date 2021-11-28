@@ -52,6 +52,7 @@ item.contenttweaker.carbon.name=Carbon
 item.contenttweaker.plate_iridium.name=Iridium Plate
 item.contenttweaker.plate_tin.name=Tin Plate
 item.contenttweaker.mold_anvil.name=Anvil Mold
+item.contenttweaker.reed_seeds.name=Reed Seeds
 
 //Blocks
 tile.contenttweaker.brass_casing.name=Brass Casing

@@ -44,7 +44,7 @@ furnace.addRecipe(<minecraft:glass_pane>, <quark:glass_shards>, 0.0);
 recipes.addShaped(<minecraft:cauldron>, [[<immersiveengineering:metal:39>, null, <immersiveengineering:metal:39>],[<immersiveengineering:metal:39>, null, <immersiveengineering:metal:39>], [<immersiveengineering:metal:39>, <immersiveengineering:metal:39>, <immersiveengineering:metal:39>]]);
 
 //Chest
-recipes.addShaped(<minecraft:chest>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],[<primal_tech:twine>, <minecraft:iron_nugget>, <primal_tech:twine>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+recipes.addShaped(<minecraft:chest>, [[<ore:basic_boards>, <ore:basic_boards>, <ore:basic_boards>],[<primal_tech:twine>, <minecraft:iron_nugget>, <primal_tech:twine>], [<ore:basic_boards>, <ore:basic_boards>, <ore:basic_boards>]]);
 
 //Paper
 gigaherz.survivalist.Dryable.addRecipe(<contenttweaker:paper_pulp>, <minecraft:paper>, 400);
@@ -95,17 +95,17 @@ mods.rustichromia.Quern.add("redstoneFromBattery", [<requious:battery_iron>.with
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 6, <requious:battery_iron>.withTag({energy: 2000}), 1024, <minecraft:redstone>, 0.5);
 
 //Shield
-recipes.addShaped(<minecraft:shield>, [[<contenttweaker:screw>, <bibliocraft:framingsheet>, <contenttweaker:screw>],[<contenttweaker:wrought_iron>, <bibliocraft:framingsheet>, <contenttweaker:wrought_iron>], [<contenttweaker:screw>, <bibliocraft:framingsheet>, <contenttweaker:screw>]]);
+recipes.addShaped(<minecraft:shield>, [[<contenttweaker:screw>, <ore:basic_boards>, <contenttweaker:screw>],[<contenttweaker:wrought_iron>, <ore:basic_boards>, <contenttweaker:wrought_iron>], [<contenttweaker:screw>, <ore:basic_boards>, <contenttweaker:screw>]]);
 
 //Sign
-recipes.addShaped(<minecraft:sign> * 3, [[<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>],[<bibliocraft:framingsheet>, <bibliocraft:framingsheet>, <bibliocraft:framingsheet>], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<minecraft:sign> * 3, [[<ore:basic_boards>, <ore:basic_boards>, <ore:basic_boards>],[<ore:basic_boards>, <ore:basic_boards>, <ore:basic_boards>], [null, <minecraft:stick>, null]]);
 
 //Bowl
 for knife in <ore:knife>.items {
-recipes.addShapeless(<minecraft:bowl>, [knife.anyDamage().transformDamage(2), <ore:boards>]);
+recipes.addShapeless(<minecraft:bowl>, [knife.anyDamage().transformDamage(2), <ore:basic_boards>]);
 }
 //Tripwire
-recipes.addShaped(<minecraft:tripwire_hook>, [[<contenttweaker:screw>], [<minecraft:string>], [<bibliocraft:framingboard>]]);
+recipes.addShaped(<minecraft:tripwire_hook>, [[<contenttweaker:screw>], [<minecraft:string>], [<ore:basic_boards>]]);
 
 //Soul Sand
 mods.inspirations.Cauldron.addFluidRecipe(<minecraft:soul_sand>, <mist:peat:1>, <liquid:liquid_souls>, 3, true);
@@ -118,10 +118,10 @@ recipes.addShapeless(<minecraft:torch> * 4, [<minecraft:coal:1>,<minecraft:stick
 recipes.addShapeless(<minecraft:torch> * 4, [<minecraft:coal>,<minecraft:stick>]);
 
 //Piston
-recipes.addShaped(<minecraft:piston>, [[<ore:boards>, <ore:boards>, <ore:boards>], [<quark:sturdy_stone>, <mysticalmechanics:gear_iron>, <quark:sturdy_stone>], [<quark:sturdy_stone>, <minecraft:redstone>, <quark:sturdy_stone>]]);
+recipes.addShaped(<minecraft:piston>, [[<ore:basic_boards>, <ore:basic_boards>, <ore:basic_boards>], [<quark:sturdy_stone>, <mysticalmechanics:gear_iron>, <quark:sturdy_stone>], [<quark:sturdy_stone>, <minecraft:redstone>, <quark:sturdy_stone>]]);
 
 //Crafting Table
-recipes.addShaped(<minecraft:crafting_table>, [[<ore:boards>, <minecraft:leather>, <ore:boards>], [<immersiveengineering:tool:1>, <primal_tech:work_stump>, <immcraft:saw>], [<ore:boards>, <ore:boards>, <ore:boards>]]);
+recipes.addShaped(<minecraft:crafting_table>, [[<ore:basic_boards>, <minecraft:leather>, <ore:basic_boards>], [<immersiveengineering:tool:1>, <primal_tech:work_stump>, <immcraft:saw>], [<ore:basic_boards>, <ore:basic_boards>, <ore:basic_boards>]]);
 
 //Bricks
 recipes.addShapeless(<minecraft:brick_block>, [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>, <contenttweaker:mortar>]);

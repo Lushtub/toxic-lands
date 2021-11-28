@@ -7,7 +7,7 @@ recipes.addShaped(<rustichromia:quern>, [[null, <rustichromia:axle_wood>, null],
 recipes.addShaped(<rustichromia:gear_speckled>, [[<enderio:item_alloy_endergy_nugget>, <survivalist:rock:2>, <enderio:item_alloy_endergy_nugget>],[<survivalist:rock:2>, <rustichromia:gear_wood>, <survivalist:rock:2>], [<enderio:item_alloy_endergy_nugget>, <survivalist:rock:2>, <enderio:item_alloy_endergy_nugget>]]);
 
 //Gin
-recipes.addShaped(<rustichromia:gin>, [[<minecraft:planks>, <minecraft:glass_pane>, <minecraft:planks>],[<rustichromia:axle_wood>, <enderio:item_alloy_endergy_ingot>, <rustichromia:axle_wood>], [<minecraft:planks>, <rustichromia:gear_wood>, <minecraft:planks>]]);
+recipes.addShaped(<rustichromia:gin>, [[<ore:basic_boards>, <minecraft:glass_pane>, <ore:basic_boards>],[<rustichromia:axle_wood>, <enderio:item_alloy_endergy_ingot>, <rustichromia:axle_wood>], [<ore:basic_boards>, <rustichromia:gear_wood>, <ore:basic_boards>]]);
 
 //Plywood Gear
 recipes.addShaped(<rustichromia:gear_wood>, [[null, <rustichromia:plate_wood>, null],[<rustichromia:plate_wood>, <rustichromia:axle_wood>, <rustichromia:plate_wood>], [null, <rustichromia:plate_wood>, null]]);
